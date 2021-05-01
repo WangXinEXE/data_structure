@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CircleQueue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleQueue/CircleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/HeroNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/SingleLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +161,7 @@
       <workItem from="1619675464197" duration="2686000" />
       <workItem from="1619797458086" duration="77000" />
       <workItem from="1619797553105" duration="33000" />
-      <workItem from="1619849453882" duration="5089000" />
+      <workItem from="1619849453882" duration="14684000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619662345201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5.1 update">
+      <created>1619860213541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619860213541</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -235,21 +245,8 @@
     <MESSAGE value="4396" />
     <MESSAGE value="4.28 update" />
     <MESSAGE value="4.29 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.29 update" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
-          <line>110</line>
-          <properties class="LinkedList.SingleLinkedList" method="deleteNode">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="5.1 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.1 update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />

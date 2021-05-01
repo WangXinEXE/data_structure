@@ -9,27 +9,29 @@ public class LinkedList {
         HeroNode hero5 = new HeroNode(4,"wuyifan","wuyifan");
 
         SingleLinkedList list = new SingleLinkedList();
-//        list.add(hero1);
-//        list.add(hero2);
-//        list.add(hero3);
-//        list.add(hero4);
+        list.add(hero4);
+        list.add(hero2);
+        list.add(hero1);
+        list.add(hero3);
 
-
-        list.addByOrder(hero4);
-        list.addByOrder(hero2);
-        list.addByOrder(hero1);
-        list.addByOrder(hero3);
+//
+//        list.addByOrder(hero4);
+//        list.addByOrder(hero2);
+//        list.addByOrder(hero1);
+//        list.addByOrder(hero3);
 
           //list.addByOrder(hero5);
         list.list();
-        System.out.println("---------------");
+        //System.out.println("---------------");
         //list.update(hero5);
         //list.deleteNode(4);
         //list.deleteNode(3);
         //list.deleteNode(1);
-
+        LinkedListReversal.reverseList(list.getHead());
+        System.out.println("反转过后---------------");
         list.list();
-        System.out.println("一共有" + getLinkedListNodes.getLength(list.getHead()) + "个节点");
+        //System.out.println("一共有" + getLinkedListNodes.getLength(list.getHead()) + "个节点");
+        //System.out.println("倒数第4个节点是" + FindReciprocalNode.findNode(list.getHead(),4));
     }
 
 }
