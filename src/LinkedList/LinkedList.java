@@ -15,12 +15,21 @@ public class LinkedList {
 //        list.add(hero4);
 
 
-          list.addByOrder(hero4);
-          list.addByOrder(hero2);
-          list.addByOrder(hero1);
-          list.addByOrder(hero3);
+        list.addByOrder(hero4);
+        list.addByOrder(hero2);
+        list.addByOrder(hero1);
+        list.addByOrder(hero3);
+
           //list.addByOrder(hero5);
-          list.list();
+        list.list();
+        System.out.println("---------------");
+        //list.update(hero5);
+        //list.deleteNode(4);
+        //list.deleteNode(3);
+        //list.deleteNode(1);
+
+        list.list();
+        System.out.println("一共有" + getLinkedListNodes.getLength(list.getHead()) + "个节点");
     }
 
 }
@@ -28,6 +37,11 @@ public class LinkedList {
 class SingleLinkedList {
     //先初始化一个头结点,不存放数据
     private HeroNode head = new HeroNode(0,"","");
+
+    public HeroNode getHead() {
+        return head;
+    }
+
     //当不考虑插入位置时,添加节点到单向链表
     //1.找到链表的最后一个位置
     //2.将next域指向新插入的节点
@@ -71,6 +85,59 @@ class SingleLinkedList {
             temp.next = heroNode;
         }
     }
+    //根据编号修改单链表的节点
+    public void update(HeroNode newHeroNode) {
+        //先判断是否为空
+        if(head.next == null) {
+            System.out.println("链表为空");
+            return;
+        }
+        //找到需要修改的节点,根据no编号来找.
+        boolean flag = false;
+        HeroNode temp = head;
+        while(true) {
+            if (temp.no == newHeroNode.no) {  //说明节点找到了
+                flag = true;
+                break;
+            }
+            if(temp.next == null) {
+                break;
+            }
+            temp = temp.next;   //后移
+        }
+        if(flag) {
+            temp.nickname = newHeroNode.nickname;
+            temp.name = newHeroNode.name;
+        }else {
+            System.out.println("没有找到节点");
+        }
+    }
+    //删除单链表的节点
+    public void deleteNode(int hNo) {
+        if(head.next == null) {
+            System.out.println("此链表为空,不能够删除了");
+            return;
+        }
+        HeroNode temp = head;
+        boolean flag = false;
+        while (true) {
+            if(temp.next == null) {
+                System.out.println("没有找到想要删除的编号");
+                break;
+            }
+            if(temp.next.no == hNo) { //说明找到了要删除的编号的前一个节点
+                flag = true;
+                break;
+            }
+            temp = temp.next;  //后移
+        }
+        if(flag) {
+            temp.next = temp.next.next;
+        }else {
+            System.out.println("没有找到想要删除的节点");
+        }
+
+    }
 
     //遍历链表的方法
     public void list() {
@@ -101,6 +168,8 @@ class HeroNode {
         this.nickname = hNickname;
     }
     //为了显示方便重写toString
+
+
 
     @Override
     public String toString() {
