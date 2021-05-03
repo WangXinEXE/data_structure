@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/FindReciprocalNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/FindReciprocalNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/getLinkedListNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/getLinkedListNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/FindReciprocalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/FindReciprocalNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/getLinkedListNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/GetLinkedListNodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +204,7 @@
       <workItem from="1619797553105" duration="33000" />
       <workItem from="1619849453882" duration="15901000" />
       <workItem from="1619929412821" duration="8953000" />
-      <workItem from="1620016609891" duration="11994000" />
+      <workItem from="1620016609891" duration="13321000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -256,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619874855999</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="5.3 update">
+      <created>1620033261538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620033261538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -304,7 +303,8 @@
     <MESSAGE value="4.28 update" />
     <MESSAGE value="4.29 update" />
     <MESSAGE value="5.1 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.1 update" />
+    <MESSAGE value="5.3 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.3 update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
