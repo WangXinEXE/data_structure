@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/FindReciprocalNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/FindReciprocalNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/HeroNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/LinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/getLinkedListNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/getLinkedListNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/FindReciprocalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/FindReciprocalNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/getLinkedListNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/GetLinkedListNodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +97,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.DoubleLinkedList">
+    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.DoubleLinkedList" />
+      <module name="data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
       <module name="data_structure" />
@@ -117,6 +134,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.PrintReverseLinkedList" />
+      <module name="data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.TestStack" />
+      <module name="data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -131,10 +174,16 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.TestStack" />
+      <item itemvalue="Application.PrintReverseLinkedList" />
+      <item itemvalue="Application.DoubleLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubleLinkedList" />
         <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.PrintReverseLinkedList" />
+        <item itemvalue="Application.TestStack" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +210,9 @@
       <workItem from="1619675464197" duration="2686000" />
       <workItem from="1619797458086" duration="77000" />
       <workItem from="1619797553105" duration="33000" />
-      <workItem from="1619849453882" duration="14684000" />
+      <workItem from="1619849453882" duration="15901000" />
+      <workItem from="1619929412821" duration="8953000" />
+      <workItem from="1620016609891" duration="11994000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -198,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619860213541</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5.1 update">
+      <created>1619874855999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619874855999</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

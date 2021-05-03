@@ -13,7 +13,7 @@ public class FindReciprocalNode {
             System.out.println("此链表为空");
             return null;
         }
-        int length = getLinkedListNodes.getLength(head); //得到链表的总长度
+        int length = GetLinkedListNodes.getLength(head); //得到链表的总长度
         if(index > length || index <= 0) {
             System.out.println("不存在的节点");
             return null;

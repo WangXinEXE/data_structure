@@ -3,7 +3,7 @@ package LinkedList;
 /**
  * 获取单链表中有效节点个数,带头节点的链表需要去掉
  */
-public class getLinkedListNodes {
+public class GetLinkedListNodes {
 
     public static int getLength(HeroNode head) {
         if(head.next == null) {

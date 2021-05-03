@@ -8,28 +8,44 @@ public class LinkedList {
         HeroNode hero4 = new HeroNode(4,"李逵","黑旋风");
         HeroNode hero5 = new HeroNode(4,"wuyifan","wuyifan");
 
+        HeroNode hero6 = new HeroNode(6,"菲奥娜","无双剑姬");
+        HeroNode hero7 = new HeroNode(7,"卢锡安","圣枪游侠");
+        HeroNode hero8 = new HeroNode(8,"吴亦凡","残月之肃");
+        HeroNode hero9 = new HeroNode(9,"李青","盲僧");
+
         SingleLinkedList list = new SingleLinkedList();
-        list.add(hero4);
-        list.add(hero2);
-        list.add(hero1);
-        list.add(hero3);
+        SingleLinkedList list2 = new SingleLinkedList();
+//        list.add(hero4);
+//        list.add(hero2);
+//        list.add(hero1);
+//        list.add(hero3);
 
 //
-//        list.addByOrder(hero4);
-//        list.addByOrder(hero2);
-//        list.addByOrder(hero1);
-//        list.addByOrder(hero3);
+        list.addByOrder(hero4);
+        list.addByOrder(hero2);
+        list.addByOrder(hero1);
+        list.addByOrder(hero3);
+
+        list2.addByOrder(hero6);
+        list2.addByOrder(hero7);
+        list2.addByOrder(hero8);
+        list2.addByOrder(hero9);
 
           //list.addByOrder(hero5);
         list.list();
+        System.out.println("_______________");
+        list2.list();
+        //HeroNode list3 = MergeLinkedList.mergeList(list2.getHead(), list.getHead());
+
+        //PrintReverseLinkedList.printReverseList(list.getHead());
         //System.out.println("---------------");
         //list.update(hero5);
         //list.deleteNode(4);
         //list.deleteNode(3);
         //list.deleteNode(1);
-        LinkedListReversal.reverseList(list.getHead());
-        System.out.println("反转过后---------------");
-        list.list();
+//        LinkedListReversal.reverseList(list.getHead());
+//        System.out.println("反转过后---------------");
+//        list.list();
         //System.out.println("一共有" + getLinkedListNodes.getLength(list.getHead()) + "个节点");
         //System.out.println("倒数第4个节点是" + FindReciprocalNode.findNode(list.getHead(),4));
     }
@@ -169,6 +185,8 @@ class HeroNode {
         this.name = hName;
         this.nickname = hNickname;
     }
+
+    public HeroNode () {};
     //为了显示方便重写toString
 
 
