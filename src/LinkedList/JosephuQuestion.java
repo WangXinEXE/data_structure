@@ -6,6 +6,9 @@ public class JosephuQuestion {
         circleSingleLinkedList.addBoy(5);
         circleSingleLinkedList.showBoy();
 
+        //test
+        circleSingleLinkedList.countBoy(1,2,5);
+
     }
 }
 
@@ -51,6 +54,50 @@ class CircleSingleLinkedList {
             curBoy = curBoy.getNext(); //经典后移
         }
     }
+    //根据用户的思路,计算小孩子出圈的顺序
+
+    /**
+     *
+     * @param startNo 从第几号开始数
+     * @param countNum 数几次
+     * @param nums 一共多少个小孩子
+     */
+    public void countBoy(int startNo,int countNum,int nums) {
+        if(first == null || startNo < 1 || startNo > nums) {
+            System.out.println("你这么玩就没意思了");
+            return;
+        }
+        //创建辅助指针,帮助小孩子出圈
+        Boy helper = first;
+        //让helper指向最后一个小孩
+        while (true) {
+            if (helper.getNext() == first) {
+                break;
+            }
+            helper = helper.getNext();
+        }
+        //注意报数前,先要让两个节点移动startNo-1次
+        for (int i = 0;i < startNo - 1;i++) {
+            first = first.getNext();
+            helper = helper.getNext();
+        }
+        //报数时,一直让两个借点移动countNum-1次,直到只剩一个节点
+        while (true) {
+            if (first == helper) {
+                break;
+            }
+            //让两个借点移动countNum-1次
+            for (int i = 0;i < countNum - 1;i++) {
+                first = first.getNext();
+                helper = helper.getNext();
+            }
+            System.out.printf("小孩%d出圈\n",first.getNo());
+            first= first.getNext(); //出圈
+            helper.setNext(first); //移动的不是helper,而是他的next指向.因为next是私有的,所以只能set
+        }
+        System.out.printf("最后吃鸡的小孩是%d \n",first.getNo());
+    }
+
 }
 
 
