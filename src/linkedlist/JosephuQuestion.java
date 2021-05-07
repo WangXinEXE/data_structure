@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 public class JosephuQuestion {
     public static void main(String[] args) {

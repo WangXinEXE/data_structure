@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/Boy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/CircleSingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/CircleSingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList/JosephuQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList/JosephuQuestion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/JosephuQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/JosephuQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleQueue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/circlequeue/CircleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/FindReciprocalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/FindReciprocalNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/GetLinkedListNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/GetLinkedListNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/JosephuQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/JosephuQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedListReversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/PrintReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/PrintReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/TestStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +101,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.JosephuQuestion">
-    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.DoubleLinkedList" />
+  <component name="RunManager" selected="Application.ArrayStackTest">
+    <configuration name="ArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ArrayStackTest" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DoubleLinkedList" />
+      <module name="data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +129,11 @@
       </method>
     </configuration>
     <configuration name="JosephuQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.JosephuQuestion" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.JosephuQuestion" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +142,11 @@
       </method>
     </configuration>
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +155,11 @@
       </method>
     </configuration>
     <configuration name="PrintReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.PrintReverseLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.PrintReverseLinkedList" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,44 +167,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.TestStack" />
-      <module name="data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.TestStack" />
       <item itemvalue="Application.PrintReverseLinkedList" />
       <item itemvalue="Application.DoubleLinkedList" />
       <item itemvalue="Application.JosephuQuestion" />
+      <item itemvalue="Application.ArrayStackTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayStackTest" />
         <item itemvalue="Application.JosephuQuestion" />
         <item itemvalue="Application.DoubleLinkedList" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.PrintReverseLinkedList" />
-        <item itemvalue="Application.TestStack" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +227,8 @@
       <workItem from="1620221364510" duration="3811000" />
       <workItem from="1620264268377" duration="425000" />
       <workItem from="1620265026514" duration="27000" />
-      <workItem from="1620308420727" duration="4432000" />
+      <workItem from="1620308420727" duration="4729000" />
+      <workItem from="1620361786154" duration="3593000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -284,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620225903821</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="5.6 update">
+      <created>1620313670183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620313670183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -333,7 +349,8 @@
     <MESSAGE value="5.1 update" />
     <MESSAGE value="5.3 update" />
     <MESSAGE value="5.5 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.5 update" />
+    <MESSAGE value="5.6 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6 update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />

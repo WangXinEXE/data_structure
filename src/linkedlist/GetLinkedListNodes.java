@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 /**
  * 获取单链表中有效节点个数,带头节点的链表需要去掉

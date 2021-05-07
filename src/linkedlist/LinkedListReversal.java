@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 /**
  * 单链表的反转(腾讯)

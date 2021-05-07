@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 import java.util.Stack;
 

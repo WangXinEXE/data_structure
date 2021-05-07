@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedlist;
 
 /**
  * 查找单链表中倒数第k个节点(新浪)

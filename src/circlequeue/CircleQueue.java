@@ -1,4 +1,4 @@
-package CircleQueue;
+package circlequeue;
 
 public class CircleQueue {
     public static void main(String[] args) {
