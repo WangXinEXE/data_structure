@@ -1,9 +1,9 @@
 package stack;
 
-//实现表达式计算
+//实现表达式计算 ,只支持10以内加减乘除法
 public class Calculator {
     public static void main(String[] args) {
-        String expression = "3+2*6-2";
+        String expression = "1+1*6-1";
         //创建两个栈:数栈和符号栈
         ArrayStack2 numStack = new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);
@@ -22,20 +22,39 @@ public class Calculator {
                      //不为空就做进一步优先级处理
                     if (operStack.priority(ch) <= operStack.priority(operStack.peek())) {   //如果传进来的符号优先级小于等于栈顶的优先级
                         //就需要从数栈中pop两个数,从符号栈中pop一个运算符,进行运算,将结果放入数栈中.然后再将当前的符号放入符号栈.
-
-
+                        num1 = numStack.popStack();
+                        num2 = numStack.popStack();
+                        oper = operStack.popStack();
+                        res = numStack.cal(num1, num2, oper);
+                        numStack.pushStack(res);  //结果放入数栈
+                        operStack.pushStack(ch);  //将当前的符号入栈
+                    } else {
+                        //如果当前符号的优先级大于栈顶的符号,则直接入栈
+                        operStack.pushStack(ch);
                     }
-
                  } else {
                      operStack.pushStack(ch);//是空直接进栈
-
                  }
              } else {
-                 numStack.pushStack(ch);  //是数字直接进栈
+                 numStack.pushStack(ch - 48);  //是数字直接进栈,因为传进来的是 'ch' ASC码表中每个相差48,所以要想得到原数字就得-48
+             }
+             //index++,判断是否扫描到了最后
+             index++;
+             if (index >= expression.length()) {
+                 break;
              }
 
         }
-
+        //当扫描完毕,就计算剩余的表达式.直到数栈剩一个数
+        while (true) {
+            //如果符号栈为空,则计算结束
+            if(operStack.isEmpty()) {
+                break;
+            }
+            res = numStack.cal(numStack.popStack(),numStack.popStack(),operStack.popStack());
+            numStack.pushStack(res);
+        }
+        System.out.printf("表达式%s结果是%d", expression, numStack.popStack());
     }
 
 }
