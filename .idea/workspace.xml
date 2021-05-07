@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stack/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleQueue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/circlequeue/CircleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/FindReciprocalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/FindReciprocalNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/GetLinkedListNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/GetLinkedListNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/JosephuQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/JosephuQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedListReversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/MergeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/PrintReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/PrintReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/TestStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -86,6 +76,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -228,7 +219,10 @@
       <workItem from="1620264268377" duration="425000" />
       <workItem from="1620265026514" duration="27000" />
       <workItem from="1620308420727" duration="4729000" />
-      <workItem from="1620361786154" duration="3593000" />
+      <workItem from="1620361786154" duration="3900000" />
+      <workItem from="1620378470708" duration="776000" />
+      <workItem from="1620379278741" duration="296000" />
+      <workItem from="1620393956421" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -300,16 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1620313670183</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="5.7 update">
+      <created>1620365437206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620365437207</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22747000" />
+    <option name="totallyTimeSpent" value="23523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15147454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,18 +351,19 @@
     <MESSAGE value="5.3 update" />
     <MESSAGE value="5.5 update" />
     <MESSAGE value="5.6 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.6 update" />
+    <MESSAGE value="5.7 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.7 update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/CircleQueue/CircleQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/circlequeue/CircleQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-656">
           <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
