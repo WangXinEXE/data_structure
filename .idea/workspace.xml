@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/stack/ArrayStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/stack/ArrayStack2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/stack/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/stack/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testgit.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/stack/ArrayStackTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/stack/Calculator.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/stack/Calculator.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -179,15 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,6 +253,8 @@
       <workItem from="1620482431002" duration="1181000" />
       <workItem from="1620484061487" duration="964000" />
       <workItem from="1620487085003" duration="700000" />
+      <workItem from="1620487809518" duration="509000" />
+      <workItem from="1620535565512" duration="2696000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -350,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620458608173</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="5.8 update">
+      <created>1620487884965</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620487884965</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

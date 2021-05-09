@@ -3,7 +3,7 @@ package stack;
 //实现表达式计算 ,只支持10以内加减乘除法
 public class Calculator {
     public static void main(String[] args) {
-        String expression = "1+1*6-1";
+        String expression = "10+10*6-1";
         //创建两个栈:数栈和符号栈
         ArrayStack2 numStack = new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);
@@ -14,6 +14,7 @@ public class Calculator {
         int res = 0;
         int oper = 0;
         char ch = ' ';  //将每次扫描出来的char放入ch中
+        String keepNumber = "";//用于接收拼接后的数字
         //循环判断
         while (true) {
              ch = expression.substring(index, index + 1).charAt(0);
@@ -36,7 +37,19 @@ public class Calculator {
                      operStack.pushStack(ch);//是空直接进栈
                  }
              } else {
-                 numStack.pushStack(ch - 48);  //是数字直接进栈,因为传进来的是 'ch' ASC码表中每个相差48,所以要想得到原数字就得-48
+                 //numStack.pushStack(ch - 48);  //是数字直接进栈,因为传进来的是 'ch' ASC码表中每个相差48,所以要想得到原数字就得-48
+                 //需要定义一个字符串变量,用于拼接
+                 keepNumber += ch;
+                 if(index == expression.length() - 1) {  //如果扫描到了最后一位,也是不需要继续往后判断的
+                     numStack.pushStack(Integer.parseInt(keepNumber));
+                 } else {
+                     //这块不能逮到一个数字就进栈,因为这个有可能是多位数,所以要判断.在expression后再扫描一次,如果是数字,继续扫描,如果是符号,进栈.
+                     if(operStack.isOper(expression.substring(index + 1,index + 2).charAt(0))) {
+                         numStack.pushStack(Integer.parseInt(keepNumber)); //String转int型
+                         keepNumber = "";//初始化值
+                     }
+                 }
+
              }
              //index++,判断是否扫描到了最后
              index++;
@@ -45,7 +58,7 @@ public class Calculator {
              }
 
         }
-        //当扫描完毕,就计算剩余的表达式.直到数栈剩一个数
+        //当扫描完毕,就计算剩余的表达式.直到数栈剩一个数.
         while (true) {
             //如果符号栈为空,则计算结束
             if(operStack.isEmpty()) {
