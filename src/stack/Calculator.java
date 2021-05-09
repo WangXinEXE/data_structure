@@ -3,7 +3,7 @@ package stack;
 //实现表达式计算 ,只支持10以内加减乘除法
 public class Calculator {
     public static void main(String[] args) {
-        String expression = "10+10*6-1";
+        String expression = "10/10*6-1";
         //创建两个栈:数栈和符号栈
         ArrayStack2 numStack = new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/stack/ArrayStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/stack/ArrayStack2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/data_structure/stack/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/stack/Calculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testgit.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.PolandNotation">
     <configuration name="ArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.ArrayStackTest" />
       <module name="data_structure" />
@@ -170,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.PolandNotation" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,31 +181,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.DoubleLinkedList" />
       <item itemvalue="Application.JosephuQuestion" />
       <item itemvalue="Application.ArrayStackTest" />
       <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.PolandNotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackTest" />
         <item itemvalue="Application.JosephuQuestion" />
         <item itemvalue="Application.DoubleLinkedList" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,8 @@
       <workItem from="1620484061487" duration="964000" />
       <workItem from="1620487085003" duration="700000" />
       <workItem from="1620487809518" duration="509000" />
-      <workItem from="1620535565512" duration="2696000" />
+      <workItem from="1620535565512" duration="4463000" />
+      <workItem from="1620564635229" duration="6557000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -361,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620487884965</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="5.9 update">
+      <created>1620538610745</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620538610745</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -413,7 +421,8 @@
     <MESSAGE value="5.6 update" />
     <MESSAGE value="5.7 update" />
     <MESSAGE value="5.8 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.8 update" />
+    <MESSAGE value="5.9 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.9 update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
