@@ -152,7 +152,7 @@ class ArrayStack2 {
                 res = num1 + num2;
                 break;
             case '-':
-                res = num2 - num1;  //减法注意顺序,后弹出来的数在前
+                res = num2 - num1;  //减法注意顺序,后弹出来的数在前.
                 break;
             case '*':
                 res = num1 * num2;
