@@ -123,7 +123,7 @@ class ArrayStack2 {
     //遍历 注意需要从栈顶开始遍历
     public void list() {
         if(isEmpty()) {
-            throw new RuntimeException("栈空是的");
+            throw new RuntimeException("栈是空的");
         }
         for (int i = top;i >= 0;i--) {
             System.out.printf("stack[%d]=%d\n",i,stack[i]);
