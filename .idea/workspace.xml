@@ -113,7 +113,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.RecursionTest">
+  <component name="RunManager" selected="Application.MazeQuestion">
     <configuration name="ArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.ArrayStackTest" />
       <module name="data_structure" />
@@ -140,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephuQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.JosephuQuestion" />
+    <configuration name="MazeQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.MazeQuestion" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +191,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JosephuQuestion" />
       <item itemvalue="Application.ArrayStackTest" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.PolandNotation" />
       <item itemvalue="Application.RecursionTest" />
+      <item itemvalue="Application.MazeQuestion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeQuestion" />
         <item itemvalue="Application.RecursionTest" />
         <item itemvalue="Application.PolandNotation" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackTest" />
-        <item itemvalue="Application.JosephuQuestion" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +257,9 @@
       <workItem from="1620653866881" duration="2712000" />
       <workItem from="1620658594416" duration="19000" />
       <workItem from="1620658646808" duration="27000" />
-      <workItem from="1620739285713" duration="3517000" />
+      <workItem from="1620739285713" duration="3837000" />
+      <workItem from="1620795141264" duration="886000" />
+      <workItem from="1620826927048" duration="5779000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -399,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620656358803</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="5.11 update递归">
+      <created>1620743300456</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620743300456</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -454,21 +463,8 @@
     <MESSAGE value="5.9 update" />
     <MESSAGE value="5.10 update" />
     <MESSAGE value="5.10 update,逆波兰表达式转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.10 update,逆波兰表达式转换" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/recursion/RecursionTest.java</url>
-          <line>18</line>
-          <properties class="recursion.RecursionTest" method="factorial">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="5.11 update递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.11 update递归" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
