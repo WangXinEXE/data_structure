@@ -18,10 +18,6 @@ public class MazeQuestion {
         //将4行3列和4行2列设置为墙
         map[3][1] = 1;
         map[3][2] = 1;
-//        map[3][3] = 1;
-//        map[3][4] = 1;
-//        map[3][5] = 1;
-//        map[6][5] = 1;
 
         setWay(map,1,1);
 
