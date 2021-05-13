@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/recursion/MazeQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/recursion/MazeQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/EightQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/EightQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +265,7 @@
       <workItem from="1620826927048" duration="6090000" />
       <workItem from="1620833325852" duration="286000" />
       <workItem from="1620879423694" duration="2215000" />
-      <workItem from="1620913594259" duration="3860000" />
+      <workItem from="1620913594259" duration="4505000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620881640113</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="5.12 update递归 八皇后问题">
+      <created>1620919926637</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1620919926637</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -492,7 +499,8 @@
     <MESSAGE value="5.10 update,逆波兰表达式转换" />
     <MESSAGE value="5.11 update递归" />
     <MESSAGE value="5.12 update递归 解决迷宫问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.12 update递归 解决迷宫问题" />
+    <MESSAGE value="5.12 update递归 八皇后问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.12 update递归 八皇后问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
