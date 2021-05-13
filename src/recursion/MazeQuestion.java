@@ -1,5 +1,7 @@
 package recursion;
 
+import java.util.ArrayList;
+
 //迷宫问题的解决
 public class MazeQuestion {
     public static void main(String[] args) {
@@ -19,14 +21,25 @@ public class MazeQuestion {
         map[3][1] = 1;
         map[3][2] = 1;
 
-        setWay(map,1,1);
+//        setWay(map,1,1);
+//
+//        for(int i = 0;i < 8;i++) {
+//            for (int j = 0;j < 7;j++) {
+//                System.out.print(map[i][j] + "   ");
+//            }
+//            System.out.println("   ");
+//        }
 
-        for(int i = 0;i < 8;i++) {
-            for (int j = 0;j < 7;j++) {
-                System.out.print(map[i][j] + "   ");
-            }
-            System.out.println("   ");
-        }
+        int i = 10;
+        int j = 5;
+
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(i + 1); //向下
+        list.add(j + 1); //向右
+        list.add(i - 1);//向上
+        list.add(j - 1);//向左
+
+        System.out.println(list);
 
 
 
@@ -47,13 +60,13 @@ public class MazeQuestion {
         } else {
             if(map[i][j] == 0) {
                 map[i][j] = 2;
-                if(setWay(map,i + 1,j)) {
+                if(setWay(map,i + 1,j)) {  //向下
                     return true;
-                } else if (setWay(map,i,j + 1)) {
+                } else if (setWay(map,i,j + 1)) { //向右
                     return true;
-                } else if (setWay(map,i - 1,j)) {
+                } else if (setWay(map,i - 1,j)) { //向上
                     return true;
-                } else if (setWay(map,i ,j - 1)) {
+                } else if (setWay(map,i ,j - 1)) { //向左
                     return true;
                 } else {
                     map[i][j] = 3;
@@ -66,5 +79,16 @@ public class MazeQuestion {
         }
 
     }
+
+    public static boolean setWay2(int[][] map,int i,int j) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(i + 1,j); //向下
+        list.add(i ,j + 1); //向右
+        list.add(i - 1,j);//向上
+        list.add(i ,j - 1);//向左
+
+        return false;
+    }
+
 
 }
