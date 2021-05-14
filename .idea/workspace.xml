@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testpull/TestPull.java" beforeDir="false" />
-    </list>
+    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +261,7 @@
       <workItem from="1620833325852" duration="286000" />
       <workItem from="1620879423694" duration="2215000" />
       <workItem from="1620913594259" duration="4816000" />
-      <workItem from="1621001584472" duration="2481000" />
+      <workItem from="1621001584472" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -448,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620920323504</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="5.12 update排序算法">
+      <created>1621006844918</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1621006844919</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -506,7 +510,8 @@
     <MESSAGE value="5.11 update递归" />
     <MESSAGE value="5.12 update递归 解决迷宫问题" />
     <MESSAGE value="5.12 update递归 八皇后问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.12 update递归 八皇后问题" />
+    <MESSAGE value="5.12 update排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.12 update排序算法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
