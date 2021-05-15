@@ -30,9 +30,6 @@ public class EightQueue {
 
     }
 
-
-
-
     //判断当前皇后是否和之前的摆放冲突
     public boolean judge(int n) {
         judgeCount++;
