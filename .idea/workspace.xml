@@ -113,7 +113,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.InsertSort">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
       <module name="data_structure" />
@@ -166,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.MazeQuestion" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.ShellSort" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,33 +179,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MazeQuestion" />
       <item itemvalue="Application.EightQueue" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.ChooseSort" />
       <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.ShellSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.ChooseSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.EightQueue" />
-        <item itemvalue="Application.MazeQuestion" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +264,8 @@
       <workItem from="1620879423694" duration="2215000" />
       <workItem from="1620913594259" duration="4816000" />
       <workItem from="1621001584472" duration="4679000" />
-      <workItem from="1621051064482" duration="8425000" />
+      <workItem from="1621051064482" duration="9838000" />
+      <workItem from="1621081986605" duration="4937000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -471,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621057241991</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="5.15 update 插入排序">
+      <created>1621061177340</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621061177340</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -531,7 +537,8 @@
     <MESSAGE value="5.12 update递归 八皇后问题" />
     <MESSAGE value="5.12 update排序算法" />
     <MESSAGE value="5.15 update 选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.15 update 选择排序" />
+    <MESSAGE value="5.15 update 插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.15 update 插入排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
