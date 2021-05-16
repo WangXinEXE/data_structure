@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/sort/ChooseSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/sort/InsertSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/sort/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/sort/ShellSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +274,7 @@
       <workItem from="1621001584472" duration="4679000" />
       <workItem from="1621051064482" duration="9838000" />
       <workItem from="1621081986605" duration="5590000" />
-      <workItem from="1621145309075" duration="11698000" />
+      <workItem from="1621145309075" duration="15086000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -487,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621089152107</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="5.16 update QuickSort">
+      <created>1621166999712</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621166999713</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -549,18 +562,10 @@
     <MESSAGE value="5.15 update 选择排序" />
     <MESSAGE value="5.15 update 插入排序" />
     <MESSAGE value="5.15 update ShellSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.15 update ShellSort" />
+    <MESSAGE value="5.16 update QuickSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.16 update QuickSort" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/QuickSort.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="left" />

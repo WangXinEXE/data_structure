@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class ShellSort {
     public static void main(String[] args) {
         //int[] arr = {-9,7,13,2,48,-21,3,6,4,54,-66};
-        int[] arr = new int[800000];
-        for(int i = 0;i < 800000;i++) {
-            arr[i] = (int)(Math.random() * 800000);
+        int[] arr = new int[8000000];
+        for(int i = 0;i < 8000000;i++) {
+            arr[i] = (int)(Math.random() * 8000000);
         }
         shellSort1(arr);
     }
