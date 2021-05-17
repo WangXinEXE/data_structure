@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +270,7 @@
       <workItem from="1621081986605" duration="5590000" />
       <workItem from="1621145309075" duration="16031000" />
       <workItem from="1621249100876" duration="141000" />
-      <workItem from="1621258552040" duration="5458000" />
+      <workItem from="1621258552040" duration="6446000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -503,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621180668773</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="5.17 update MergeSort">
+      <created>1621265479130</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1621265479130</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -566,7 +573,8 @@
     <MESSAGE value="5.15 update 插入排序" />
     <MESSAGE value="5.15 update ShellSort" />
     <MESSAGE value="5.16 update QuickSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.16 update QuickSort" />
+    <MESSAGE value="5.17 update MergeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.17 update MergeSort" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
