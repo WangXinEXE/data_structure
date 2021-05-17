@@ -35,7 +35,7 @@ public class QuickSort {
             //如果小于,说明没有找到,l继续右移
             while(arr[l] < pivot) {
                 l += 1;
-            }
+            }                           //如果从大到小排序就改这里的就好
             //同理,r左移
             while (arr[r] > pivot) {
                 r -= 1;

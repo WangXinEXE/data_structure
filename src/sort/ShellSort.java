@@ -2,6 +2,7 @@ package sort;
 
 import java.util.Arrays;
 //有点意思
+//T(n) = O(n^(1.3—2))
 public class ShellSort {
     public static void main(String[] args) {
         //int[] arr = {-9,7,13,2,48,-21,3,6,4,54,-66};
