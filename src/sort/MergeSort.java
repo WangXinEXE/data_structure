@@ -7,8 +7,8 @@ import java.util.Date;
 public class MergeSort {
     public static void main(String[] args) {
         //int[] arr = {15, -20, 3, 7, 48, -6, 12, 77, 9, 56, 4, 0};
-        int[] arr = new int[8000000];
-        for(int i = 0;i < 8000000;i++) {
+        int[] arr = new int[10];
+        for(int i = 0;i < 10;i++) {
             arr[i] = (int)(Math.random() * 8000000);
         }
         int[] temp = new int[arr.length];  //需要一个额外的temp数组
@@ -24,7 +24,7 @@ public class MergeSort {
         String format = simpleDateFormat.format(date1);
         System.out.println("执行后时间" + format);
 
-        //System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
     }
 
     /**  合并的方法
