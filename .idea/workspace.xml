@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/DichotomySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/DichotomySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +274,7 @@
       <workItem from="1621258552040" duration="7143000" />
       <workItem from="1621310002865" duration="1900000" />
       <workItem from="1621345661018" duration="5523000" />
-      <workItem from="1621434727772" duration="3246000" />
+      <workItem from="1621434727772" duration="5412000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -542,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621436482056</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="5.19 update DichotomySearch">
+      <created>1621438401740</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1621438401740</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -609,9 +616,22 @@
     <MESSAGE value="5.17 update RadixSort" />
     <MESSAGE value="5.18 update RadixSort" />
     <MESSAGE value="5.19 update SeqSearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.19 update SeqSearch" />
+    <MESSAGE value="5.19 update DichotomySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.19 update DichotomySearch" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/search/DichotomySearch.java</url>
+          <line>33</line>
+          <properties class="search.DichotomySearch" method="newDichotomySearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="left" />
