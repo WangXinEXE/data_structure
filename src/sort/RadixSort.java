@@ -7,9 +7,9 @@ import java.util.Date;
 public class RadixSort {
     public static void main(String[] args) {
  //       int[] arr = {3, 12, 6, 77, 4396, 777, 24, 10, 9, 66};
-        int[] arr = new int[8000000];
-        for(int i = 0;i < 8000000;i++) {
-            arr[i] = (int)(Math.random() * 8000000);
+        int[] arr = new int[20];
+        for(int i = 0;i < 20;i++) {
+            arr[i] = (int)(Math.random() * 200);
         }
         Date date = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -58,6 +58,6 @@ public class RadixSort {
                 bucketElementCounts[k] = 0;
             }
         }
-        //System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
     }
 }
