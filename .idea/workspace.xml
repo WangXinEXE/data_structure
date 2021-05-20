@@ -114,7 +114,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.DichotomySearch">
+  <component name="RunManager" selected="Application.InsertValueSearch">
     <configuration name="DichotomySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.DichotomySearch" />
       <module name="data_structure" />
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
+    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.InsertValueSearch" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
@@ -194,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.RadixSort" />
       <item itemvalue="Application.SeqSearch" />
       <item itemvalue="Application.DichotomySearch" />
+      <item itemvalue="Application.InsertValueSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.DichotomySearch" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.SeqSearch" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +274,9 @@
       <workItem from="1621258552040" duration="7143000" />
       <workItem from="1621310002865" duration="1900000" />
       <workItem from="1621345661018" duration="5523000" />
-      <workItem from="1621434727772" duration="5412000" />
+      <workItem from="1621434727772" duration="5744000" />
+      <workItem from="1621440674934" duration="656000" />
+      <workItem from="1621521212086" duration="1829000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -549,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621438401740</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="5.19 update DichotomySearch">
+      <created>1621440509399</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1621440509399</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -624,7 +633,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/search/DichotomySearch.java</url>
-          <line>33</line>
+          <line>31</line>
           <properties class="search.DichotomySearch" method="newDichotomySearch">
             <option name="EMULATED" value="true" />
           </properties>

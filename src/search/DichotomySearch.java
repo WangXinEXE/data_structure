@@ -6,13 +6,11 @@ import java.util.Arrays;
 public class DichotomySearch {
     public static void main(String[] args) {
         int[] arr = {20, 20, 37, 60, 70, 70, 70, 75, 79, 82, 85, 86, 90, 97, 99, 107, 111, 124, 132, 141, 170, 182, 188};
-        int i = dichotomySearch(arr, 0, arr.length - 1, 188);
+        int i = dichotomySearch(arr, 0, arr.length - 1, 82);
         //System.out.println(i);
 
-        ArrayList<Integer> list = newDichotomySearch(arr, 0, arr.length, 20);
-        for (Integer integer : list) {
-            System.out.println(integer);
-        }
+        ArrayList<Integer> list = newDichotomySearch(arr, 0, arr.length - 1, 4396);
+        System.out.println(list);
 
     }
 
@@ -32,8 +30,9 @@ public class DichotomySearch {
 
     //处理如果存在多个想要查询的数据的情况
     public static ArrayList<Integer> newDichotomySearch(int[] arr, int left, int right, int findVal) {
+
         if (left > right) {
-            return new ArrayList<>();
+            return new ArrayList<Integer>();
         }
         int medium = (left + right) / 2;
         if (findVal > arr[medium]) {
@@ -61,8 +60,6 @@ public class DichotomySearch {
             }
             return list;
         }
-
-
     }
 
 
