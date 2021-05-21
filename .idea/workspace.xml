@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/search/FibonacciSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/DichotomySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/DichotomySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search/InsertValueSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/InsertValueSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,15 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,7 +275,9 @@
       <workItem from="1621345661018" duration="5523000" />
       <workItem from="1621434727772" duration="5744000" />
       <workItem from="1621440674934" duration="656000" />
-      <workItem from="1621521212086" duration="1829000" />
+      <workItem from="1621521212086" duration="2130000" />
+      <workItem from="1621524266309" duration="95000" />
+      <workItem from="1621608283936" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -558,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621440509399</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="5.20 update InsertValueSearch">
+      <created>1621524102853</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1621524102853</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -601,7 +609,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4396" />
     <MESSAGE value="4.28 update" />
     <MESSAGE value="4.29 update" />
     <MESSAGE value="5.1 update" />
@@ -626,7 +633,8 @@
     <MESSAGE value="5.18 update RadixSort" />
     <MESSAGE value="5.19 update SeqSearch" />
     <MESSAGE value="5.19 update DichotomySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.19 update DichotomySearch" />
+    <MESSAGE value="5.20 update InsertValueSearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.20 update InsertValueSearch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
