@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hashtable/HashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/Hash.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,13 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,7 +279,8 @@
       <workItem from="1621524266309" duration="95000" />
       <workItem from="1621608283936" duration="2177000" />
       <workItem from="1621685441152" duration="1979000" />
-      <workItem from="1621754785137" duration="8489000" />
+      <workItem from="1621754785137" duration="8735000" />
+      <workItem from="1621829607277" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -582,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621695235728</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="5.23 update HashTable">
+      <created>1621777355850</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1621777355850</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -625,7 +633,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.1 update" />
     <MESSAGE value="5.3 update" />
     <MESSAGE value="5.5 update" />
     <MESSAGE value="5.6 update" />
@@ -650,7 +657,8 @@
     <MESSAGE value="5.20 update InsertValueSearch" />
     <MESSAGE value="5.21 update FibonacciSearch" />
     <MESSAGE value="5.22 update Hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.22 update Hash" />
+    <MESSAGE value="5.23 update HashTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.23 update HashTable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
