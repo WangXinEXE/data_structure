@@ -6,11 +6,11 @@ import java.util.Date;
 //T(n)=O(nlog(r)m)
 public class RadixSort {
     public static void main(String[] args) {
- //       int[] arr = {3, 12, 6, 77, 4396, 777, 24, 10, 9, 66};
-        int[] arr = new int[20];
-        for(int i = 0;i < 20;i++) {
-            arr[i] = (int)(Math.random() * 200);
-        }
+        int[] arr = {3, 12, 6, 77, 4396, 777, 24, 10, 9, 66};
+//        int[] arr = new int[20];
+//        for(int i = 0;i < 20;i++) {
+//            arr[i] = (int)(Math.random() * 200);
+//        }
         Date date = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String format1 = simpleDateFormat.format(date);

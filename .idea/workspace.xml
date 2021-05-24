@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/hashtable/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/hashtable/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/hashtable/EmpLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/hashtable/EmpLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/hashtable/HashTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/hashtable/HashTab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/sort/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/sort/RadixSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/RadixSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +119,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.HashTable">
+  <component name="RunManager" selected="Application.RadixSort">
     <configuration name="DichotomySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.DichotomySearch" />
       <module name="data_structure" />
@@ -179,15 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,10 +205,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.DichotomySearch" />
-        <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.SeqSearch" />
       </list>
     </recent_temporary>
@@ -280,7 +284,8 @@
       <workItem from="1621608283936" duration="2177000" />
       <workItem from="1621685441152" duration="1979000" />
       <workItem from="1621754785137" duration="8735000" />
-      <workItem from="1621829607277" duration="1210000" />
+      <workItem from="1621829607277" duration="2893000" />
+      <workItem from="1621863806286" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -590,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621777355850</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="5.24 update Tree">
+      <created>1621831443221</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1621831443221</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -633,7 +645,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.3 update" />
     <MESSAGE value="5.5 update" />
     <MESSAGE value="5.6 update" />
     <MESSAGE value="5.7 update" />
@@ -658,7 +669,8 @@
     <MESSAGE value="5.21 update FibonacciSearch" />
     <MESSAGE value="5.22 update Hash" />
     <MESSAGE value="5.23 update HashTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.23 update HashTable" />
+    <MESSAGE value="5.24 update Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.24 update Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,6 +682,11 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/RadixSort.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
