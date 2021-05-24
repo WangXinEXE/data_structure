@@ -2,7 +2,23 @@ package tree;
 
 public class BinaryTree {
     public static void main(String[] args) {
+        BinaryT binaryT = new BinaryT();
 
+        HeroNode root = new HeroNode(1, "菲奥娜");
+        HeroNode heroNode1 = new HeroNode(2, "卢锡安");
+        HeroNode heroNode2 = new HeroNode(3, "兰博");
+        HeroNode heroNode3 = new HeroNode(4, "大司马");
+        HeroNode heroNode4 = new HeroNode(5, "韩金龙");
+        binaryT.setRoot(root);
+        root.setLeft(heroNode1);
+        root.setRight(heroNode2);
+        heroNode2.setRight(heroNode3);
+        heroNode2.setLeft(heroNode4);
+        binaryT.preOrder(); //12354
+        System.out.println("----");
+        binaryT.midOrder(); //21534
+        System.out.println("----");
+        binaryT.postOrder();//25431
     }
 }
 

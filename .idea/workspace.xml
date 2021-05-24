@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/hashtable/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/hashtable/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/hashtable/EmpLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/hashtable/EmpLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/hashtable/HashTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/hashtable/HashTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/sort/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/sort/RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.RadixSort">
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
+      <module name="data_structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DichotomySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.DichotomySearch" />
       <module name="data_structure" />
@@ -172,19 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.SeqSearch" />
-      <module name="data_structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -198,18 +196,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.SeqSearch" />
       <item itemvalue="Application.DichotomySearch" />
       <item itemvalue="Application.InsertValueSearch" />
       <item itemvalue="Application.HashTable" />
+      <item itemvalue="Application.BinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.DichotomySearch" />
-        <item itemvalue="Application.SeqSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +283,7 @@
       <workItem from="1621685441152" duration="1979000" />
       <workItem from="1621754785137" duration="8735000" />
       <workItem from="1621829607277" duration="2893000" />
-      <workItem from="1621863806286" duration="2485000" />
+      <workItem from="1621863806286" duration="4502000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -602,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621831443221</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="5.24 update BinaryTree">
+      <created>1621866332238</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1621866332238</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -645,7 +650,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.5 update" />
     <MESSAGE value="5.6 update" />
     <MESSAGE value="5.7 update" />
     <MESSAGE value="5.8 update" />
@@ -670,7 +674,8 @@
     <MESSAGE value="5.22 update Hash" />
     <MESSAGE value="5.23 update HashTable" />
     <MESSAGE value="5.24 update Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.24 update Tree" />
+    <MESSAGE value="5.24 update BinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.24 update BinaryTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
