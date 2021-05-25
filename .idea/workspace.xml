@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
     </list>
@@ -183,13 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,7 +282,8 @@
       <workItem from="1621685441152" duration="1979000" />
       <workItem from="1621754785137" duration="8735000" />
       <workItem from="1621829607277" duration="2893000" />
-      <workItem from="1621863806286" duration="4502000" />
+      <workItem from="1621863806286" duration="4541000" />
+      <workItem from="1621915742503" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -607,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621866332238</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="5.24 update BinaryTree">
+      <created>1621870513381</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1621870513381</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
