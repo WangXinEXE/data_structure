@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +54,14 @@
         </map>
       </branch-storage>
     </favorite-branches>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/stack/ArrayStackTest.java" root0="FORCE_HIGHLIGHTING" />
@@ -180,15 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,7 +292,8 @@
       <workItem from="1621754785137" duration="8735000" />
       <workItem from="1621829607277" duration="2893000" />
       <workItem from="1621863806286" duration="4541000" />
-      <workItem from="1621915742503" duration="2491000" />
+      <workItem from="1621915742503" duration="4666000" />
+      <workItem from="1622001702239" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -614,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621870513381</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="5.25 update BinaryTree_search">
+      <created>1621918771005</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1621918771005</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -657,7 +674,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.6 update" />
     <MESSAGE value="5.7 update" />
     <MESSAGE value="5.8 update" />
     <MESSAGE value="5.9 update" />
@@ -682,7 +698,8 @@
     <MESSAGE value="5.23 update HashTable" />
     <MESSAGE value="5.24 update Tree" />
     <MESSAGE value="5.24 update BinaryTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.24 update BinaryTree" />
+    <MESSAGE value="5.25 update BinaryTree_search" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.25 update BinaryTree_search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -19,8 +19,15 @@ public class BinaryTree {
 //        binaryT.midOrder(); //21534
 //        System.out.println("----");
 //        binaryT.postOrder();//25431
-        HeroNode heroNode = binaryT.preSearch(5);
-        System.out.println(heroNode);
+//        HeroNode heroNode = binaryT.preSearch(5);
+//        System.out.println(heroNode);
+//        binaryT.midSearch(5);
+//        HeroNode postSearch = binaryT.postSearch(6);
+//        System.out.println(postSearch);
+        binaryT.preOrder();
+        System.out.println("______");
+        binaryT.deleNode(1);
+        binaryT.preOrder();
     }
 }
 
@@ -32,7 +39,7 @@ class BinaryT {
     }
 
     //前序遍历
-    public void preOrder(int i) {
+    public void preOrder() {
         if (this.root != null) {
             this.root.preOrder();
         } else {
@@ -55,6 +62,19 @@ class BinaryT {
             System.out.println("这树是空的");
         }
     }
+    //删除
+    public void deleNode(int no) {
+        if(this.root != null ) {
+            if(this.root.getNo() == no) { //如果要删除的是根节点,整棵树连根拔起
+                root = null;
+            } else {
+                root.delNode(no);
+            }
+        } else {
+            System.out.println("这棵树是空的呀");
+        }
+    }
+
 
     //查找
     public HeroNode preSearch(int no) {
@@ -170,6 +190,7 @@ class HeroNode {
 
     //前序查找
     public HeroNode preSearch(int no) {
+        System.out.println("前序遍历");
         if (this.no == no) {
             return this;
         }
@@ -186,11 +207,13 @@ class HeroNode {
 
     //中序查找
     public HeroNode midSearch(int no) {
+
         HeroNode resNode = null;
         if (this.left != null) resNode = this.left.midSearch(no);
 
         if (resNode != null) return resNode;
 
+        System.out.println("中序遍历");
         if (this.no == no) return this;
 
         if (this.right != null) resNode = this.right.midSearch(no);
@@ -199,6 +222,7 @@ class HeroNode {
     }
     //后序查找
     public HeroNode postSearch(int no) {
+
         HeroNode resNode = null;
         if (this.left != null) resNode = this.left.postSearch(no);
 
@@ -207,13 +231,32 @@ class HeroNode {
         if (this.right != null) resNode = this.right.postSearch(no);
 
         if(resNode != null) return resNode;
-
+        System.out.println("后序遍历");
         if (this.no == no) {
             return this;
         }
         return resNode;  //如果都没找到,也只能返回空了
     }
 
+    /**递归删除节点
+     * 如果是叶子节点直接删除,否则删除整棵子树
+     */
+    public void delNode(int no) {
+        if(this.left != null && this.left.no == no) {
+            this.left = null;
+            return;
+        }
+        if(this.right != null && this.right.no == no) {
+            this.right = null;
+            return;
+        }
+        if(this.left != null) {
+            this.left.delNode(no);
+        }
+        if(this.right != null) {
+            this.right.delNode(no);
+        }
+    }
 
 
 }
