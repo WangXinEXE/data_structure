@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,9 +122,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
+  <component name="RunManager" selected="Application.ArrBinaryTree">
+    <configuration name="ArrBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
@@ -139,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DichotomySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.DichotomySearch" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,18 +201,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.DichotomySearch" />
       <item itemvalue="Application.InsertValueSearch" />
       <item itemvalue="Application.HashTable" />
       <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.ArrBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrBinaryTree" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.InsertValueSearch" />
-        <item itemvalue="Application.DichotomySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +290,9 @@
       <workItem from="1621829607277" duration="2893000" />
       <workItem from="1621863806286" duration="4541000" />
       <workItem from="1621915742503" duration="4666000" />
-      <workItem from="1622001702239" duration="2228000" />
+      <workItem from="1622001702239" duration="3504000" />
+      <workItem from="1622006058161" duration="322000" />
+      <workItem from="1622125276065" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="4396">
       <created>1619527283846</created>
@@ -631,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621918771005</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="5.26 update BinaryTree_search deleteNode">
+      <created>1622004984463</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1622004984463</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -674,7 +680,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.7 update" />
     <MESSAGE value="5.8 update" />
     <MESSAGE value="5.9 update" />
     <MESSAGE value="5.10 update" />
@@ -699,7 +704,8 @@
     <MESSAGE value="5.24 update Tree" />
     <MESSAGE value="5.24 update BinaryTree" />
     <MESSAGE value="5.25 update BinaryTree_search" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.25 update BinaryTree_search" />
+    <MESSAGE value="5.26 update BinaryTree_search deleteNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.26 update BinaryTree_search deleteNode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,6 +717,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tree/ArrBinaryTree.java</url>
+          <line>3</line>
+          <properties class="tree.ArrBinaryTree" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sort/RadixSort.java</url>

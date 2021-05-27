@@ -75,7 +75,6 @@ class BinaryT {
         }
     }
 
-
     //查找
     public HeroNode preSearch(int no) {
         if(this.root != null) {
