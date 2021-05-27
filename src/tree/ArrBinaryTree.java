@@ -3,9 +3,8 @@ package tree;
 public class ArrBinaryTree {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7};
-        new ArrBinaryT(arr).preOrder(0);
+        new ArrBinaryT(arr).preOrder();
     }
-
 }
 class ArrBinaryT {
     private int[] arr;
@@ -13,7 +12,10 @@ class ArrBinaryT {
     public ArrBinaryT(int[] arr) {
         this.arr = arr;
     }
-
+    //方法重载(同名不同参)
+    public void preOrder() {
+        this.preOrder(0);
+    }
     /**
      *
      * @param index 数组的下标

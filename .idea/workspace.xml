@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -292,14 +289,7 @@
       <workItem from="1621915742503" duration="4666000" />
       <workItem from="1622001702239" duration="3504000" />
       <workItem from="1622006058161" duration="322000" />
-      <workItem from="1622125276065" duration="1817000" />
-    </task>
-    <task id="LOCAL-00001" summary="4396">
-      <created>1619527283846</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1619527283846</updated>
+      <workItem from="1622125276065" duration="2136000" />
     </task>
     <task id="LOCAL-00002" summary="4.28 update">
       <created>1619575247168</created>
@@ -637,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622004984463</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="5.27 update ArrBinaryTree">
+      <created>1622129226057</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1622129226058</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -680,7 +677,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.8 update" />
     <MESSAGE value="5.9 update" />
     <MESSAGE value="5.10 update" />
     <MESSAGE value="5.10 update,逆波兰表达式转换" />
@@ -705,7 +701,8 @@
     <MESSAGE value="5.24 update BinaryTree" />
     <MESSAGE value="5.25 update BinaryTree_search" />
     <MESSAGE value="5.26 update BinaryTree_search deleteNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.26 update BinaryTree_search deleteNode" />
+    <MESSAGE value="5.27 update ArrBinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.27 update ArrBinaryTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
