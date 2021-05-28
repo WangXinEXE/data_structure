@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +133,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.ClueingBinaryTree">
     <configuration name="ArrBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTree" />
       <module name="data_structure" />
@@ -159,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.HashTable" />
+    <configuration name="ClueingBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.clueingbinarytree.ClueingBinaryTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.*" />
+          <option name="PATTERN" value="tree.clueingbinarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.InsertValueSearch" />
+    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.HashTable" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
@@ -211,18 +212,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.InsertValueSearch" />
       <item itemvalue="Application.HashTable" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.ArrBinaryTree" />
+      <item itemvalue="Application.ClueingBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClueingBinaryTree" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.ArrBinaryTree" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.HashTable" />
-        <item itemvalue="Application.InsertValueSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +305,7 @@
       <workItem from="1622006058161" duration="322000" />
       <workItem from="1622125276065" duration="2562000" />
       <workItem from="1622183609436" duration="170000" />
-      <workItem from="1622208334207" duration="2834000" />
-    </task>
-    <task id="LOCAL-00004" summary="4.29 update">
-      <created>1619662345201</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1619662345201</updated>
+      <workItem from="1622208334207" duration="7685000" />
     </task>
     <task id="LOCAL-00005" summary="5.1 update">
       <created>1619860213541</created>
@@ -649,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622211942119</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="5.28 update ClueingBinaryTree">
+      <created>1622212248860</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1622212248860</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -735,6 +736,11 @@
           <url>file://$PROJECT_DIR$/src/sort/RadixSort.java</url>
           <line>39</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

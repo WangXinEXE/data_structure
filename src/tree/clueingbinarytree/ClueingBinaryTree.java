@@ -2,15 +2,70 @@ package tree.clueingbinarytree;
 
 public class ClueingBinaryTree {
     public static void main(String[] args) {
+        BinaryT binaryT = new BinaryT();
+        ClueingNode root = new ClueingNode(1, "菲奥娜");
+        ClueingNode heroNode1 = new ClueingNode(3, "卢锡安");
+        ClueingNode heroNode2 = new ClueingNode(6, "兰博");
+        ClueingNode heroNode3 = new ClueingNode(8, "大司马");
+        ClueingNode heroNode4 = new ClueingNode(10, "韩金龙");
+        ClueingNode heroNode5 = new ClueingNode(14, "韩金龙");
+        binaryT.setRoot(root);
+        root.setLeft(heroNode1);
+        root.setRight(heroNode2);
+        heroNode1.setLeft(heroNode3);
+        heroNode1.setRight(heroNode4);
+        heroNode2.setLeft(heroNode5);
+
+        BinaryT t = new BinaryT();
+        t.setRoot(root);
+        t.clueingBinaryT();
+        ClueingNode left = heroNode4.getLeft();
+        ClueingNode right = heroNode4.getRight();
+        System.out.println(left);
+        System.out.println(right);
+
 
     }
 }
-
+//线索化二叉树
 class BinaryT {
     private ClueingNode root;
+    //因为在进行线索化时,总要保留当前节点的前一个节点,这样才能有指针指向前驱,因为这棵树是单向的
+    private ClueingNode pre = null;//默认null
 
     public void setRoot(ClueingNode root) {  //只要set一个root节点,就可以进行遍历
         this.root = root;
+    }
+
+    public void clueingBinaryT() {
+        this.clueingBinaryT(root);
+    }
+    //中序线索化二叉树
+    /**
+     * 传进来的是节点
+     * @param node
+     */
+    public void clueingBinaryT(ClueingNode node) {
+        if(node == null) {
+            System.out.println("空的,怎么线索化?");
+            return;
+        }
+        //中序化,先处理左节点,以8为例
+        clueingBinaryT(node.getLeft());
+        if (node.getLeft() == null) {
+            node.setLeft(pre);  //这波是指向的null
+            node.setLeftType(1); //设置状态
+        }
+        if( pre != null && pre.getRight() == null) {  //因为要连后继,就得保证右指针是空的 ,!!!这两个条件千万不能写反了,要不会空指针,必须是pre!=null先成立才可以
+            //让前驱节点的右指针指向当前节点
+            pre.setRight(node);
+            pre.setRightType(1);
+        }
+        //重要,每处理一个节点后,就让当前节点成为下一个节点的前驱节点,node往下走,pre也得跟着
+        pre = node;
+        //处理右子树
+        clueingBinaryT(node.getRight());
+
     }
 
     //前序遍历
