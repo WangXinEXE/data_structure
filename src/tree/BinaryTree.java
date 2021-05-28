@@ -5,29 +5,31 @@ public class BinaryTree {
         BinaryT binaryT = new BinaryT();
 
         HeroNode root = new HeroNode(1, "菲奥娜");
-        HeroNode heroNode1 = new HeroNode(2, "卢锡安");
-        HeroNode heroNode2 = new HeroNode(3, "兰博");
-        HeroNode heroNode3 = new HeroNode(4, "大司马");
-        HeroNode heroNode4 = new HeroNode(5, "韩金龙");
+        HeroNode heroNode1 = new HeroNode(3, "卢锡安");
+        HeroNode heroNode2 = new HeroNode(6, "兰博");
+        HeroNode heroNode3 = new HeroNode(8, "大司马");
+        HeroNode heroNode4 = new HeroNode(10, "韩金龙");
+        HeroNode heroNode5 = new HeroNode(14, "韩金龙");
         binaryT.setRoot(root);
         root.setLeft(heroNode1);
         root.setRight(heroNode2);
-        heroNode2.setRight(heroNode3);
-        heroNode2.setLeft(heroNode4);
-//        binaryT.preOrder(); //12354
+        heroNode1.setLeft(heroNode3);
+        heroNode1.setRight(heroNode4);
+        heroNode2.setLeft(heroNode5);
+//        binaryT.preOrder(); //1 3 8 10 6 14
 //        System.out.println("----");
-//        binaryT.midOrder(); //21534
+        binaryT.midOrder(); //
 //        System.out.println("----");
-//        binaryT.postOrder();//25431
+//        binaryT.postOrder();//8 10 3 14 6 1
 //        HeroNode heroNode = binaryT.preSearch(5);
 //        System.out.println(heroNode);
 //        binaryT.midSearch(5);
 //        HeroNode postSearch = binaryT.postSearch(6);
 //        System.out.println(postSearch);
-        binaryT.preOrder();
-        System.out.println("______");
-        binaryT.deleNode(1);
-        binaryT.preOrder();
+//        binaryT.preOrder();
+//        System.out.println("______");
+//        binaryT.deleNode(1);
+//        binaryT.preOrder();
     }
 }
 

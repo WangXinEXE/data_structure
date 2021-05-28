@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="" />
+    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/ArrBinaryT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/ArrBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +99,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,12 +108,21 @@
               <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -119,13 +138,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.ArrBinaryTree">
+  <component name="RunManager" selected="Application.BinaryTree">
     <configuration name="ArrBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="tree.clueingbinarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,7 +157,7 @@
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="tree.clueingbinarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,8 +224,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrBinaryTree" />
         <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.ArrBinaryTree" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.InsertValueSearch" />
@@ -289,14 +308,9 @@
       <workItem from="1621915742503" duration="4666000" />
       <workItem from="1622001702239" duration="3504000" />
       <workItem from="1622006058161" duration="322000" />
-      <workItem from="1622125276065" duration="2136000" />
-    </task>
-    <task id="LOCAL-00002" summary="4.28 update">
-      <created>1619575247168</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619575247168</updated>
+      <workItem from="1622125276065" duration="2562000" />
+      <workItem from="1622183609436" duration="170000" />
+      <workItem from="1622208334207" duration="2519000" />
     </task>
     <task id="LOCAL-00003" summary="4.28 update">
       <created>1619586072051</created>
@@ -634,16 +648,24 @@
       <option name="project" value="LOCAL" />
       <updated>1622129226058</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="5.27 update ArrBinaryTree">
+      <created>1622129551944</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1622129551944</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26991000" />
+    <option name="totallyTimeSpent" value="27161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15951742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16152816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -715,14 +737,6 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/tree/ArrBinaryTree.java</url>
-          <line>3</line>
-          <properties class="tree.ArrBinaryTree" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sort/RadixSort.java</url>
           <line>39</line>
@@ -760,6 +774,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/RadixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursion/MazeQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
