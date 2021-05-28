@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/ArrBinaryT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/data_structure/tree/ArrBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,14 +304,7 @@
       <workItem from="1622006058161" duration="322000" />
       <workItem from="1622125276065" duration="2562000" />
       <workItem from="1622183609436" duration="170000" />
-      <workItem from="1622208334207" duration="2519000" />
-    </task>
-    <task id="LOCAL-00003" summary="4.28 update">
-      <created>1619586072051</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1619586072051</updated>
+      <workItem from="1622208334207" duration="2834000" />
     </task>
     <task id="LOCAL-00004" summary="4.29 update">
       <created>1619662345201</created>
@@ -655,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622129551944</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="5.28 update ClueingBinaryTree">
+      <created>1622211942119</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1622211942119</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -699,7 +693,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.9 update" />
     <MESSAGE value="5.10 update" />
     <MESSAGE value="5.10 update,逆波兰表达式转换" />
     <MESSAGE value="5.11 update递归" />
@@ -724,7 +717,8 @@
     <MESSAGE value="5.25 update BinaryTree_search" />
     <MESSAGE value="5.26 update BinaryTree_search deleteNode" />
     <MESSAGE value="5.27 update ArrBinaryTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.27 update ArrBinaryTree" />
+    <MESSAGE value="5.28 update ClueingBinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.28 update ClueingBinaryTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

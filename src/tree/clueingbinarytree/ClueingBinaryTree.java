@@ -6,6 +6,78 @@ public class ClueingBinaryTree {
     }
 }
 
+class BinaryT {
+    private ClueingNode root;
+
+    public void setRoot(ClueingNode root) {  //只要set一个root节点,就可以进行遍历
+        this.root = root;
+    }
+
+    //前序遍历
+    public void preOrder() {
+        if (this.root != null) {
+            this.root.preOrder();
+        } else {
+            System.out.println("这树是空的");
+        }
+    }
+
+    public void midOrder() {
+        if (this.root != null) {
+            this.root.midOrder();
+        } else {
+            System.out.println("这树是空的");
+        }
+    }
+
+    public void postOrder() {
+        if (this.root != null) {
+            this.root.postOrder();
+        } else {
+            System.out.println("这树是空的");
+        }
+    }
+    //删除
+    public void deleNode(int no) {
+        if(this.root != null ) {
+            if(this.root.getNo() == no) { //如果要删除的是根节点,整棵树连根拔起
+                root = null;
+            } else {
+                root.delNode(no);
+            }
+        } else {
+            System.out.println("这棵树是空的呀");
+        }
+    }
+
+    //查找
+    public ClueingNode preSearch(int no) {
+        if(this.root != null) {
+            return this.root.preSearch(no);
+        } else {
+            return null;
+        }
+    }
+
+    public ClueingNode midSearch(int no) {
+        if(this.root != null) {
+            return this.root.midSearch(no);
+        } else {
+            return null;
+        }
+    }
+
+    public ClueingNode postSearch(int no) {
+        if(this.root != null) {
+            return this.root.postSearch(no);
+        } else {
+            return null;
+        }
+    }
+
+}
+
+
 class ClueingNode {
     private int no;
     private String name;
@@ -14,6 +86,22 @@ class ClueingNode {
 
     private int leftType; //= 0 表示指向左子树, = 1,表示指向其前驱
     private int rightType; //= 0 表示指向右子树, = 1,表示指向其后继
+
+    public int getLeftType() {
+        return leftType;
+    }
+
+    public void setLeftType(int leftType) {
+        this.leftType = leftType;
+    }
+
+    public int getRightType() {
+        return rightType;
+    }
+
+    public void setRightType(int rightType) {
+        this.rightType = rightType;
+    }
 
     public ClueingNode(int no, String name) {
         this.no = no;
