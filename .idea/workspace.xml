@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -108,16 +106,11 @@
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -305,14 +298,10 @@
       <workItem from="1622006058161" duration="322000" />
       <workItem from="1622125276065" duration="2562000" />
       <workItem from="1622183609436" duration="170000" />
-      <workItem from="1622208334207" duration="7685000" />
-    </task>
-    <task id="LOCAL-00005" summary="5.1 update">
-      <created>1619860213541</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1619860213541</updated>
+      <workItem from="1622208334207" duration="8090000" />
+      <workItem from="1622258923126" duration="46000" />
+      <workItem from="1622258998027" duration="18000" />
+      <workItem from="1622298624807" duration="350000" />
     </task>
     <task id="LOCAL-00006" summary="5.1 update">
       <created>1619874855999</created>
@@ -650,17 +639,23 @@
       <option name="project" value="LOCAL" />
       <updated>1622212248860</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="5.28 update ClueingBinaryTree">
+      <created>1622217484252</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1622217484252</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27161000" />
+    <option name="totallyTimeSpent" value="27225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16152816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16554959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -739,8 +734,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="8" />
+          <line>58</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
