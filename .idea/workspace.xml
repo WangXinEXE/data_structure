@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +193,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,14 +304,8 @@
       <workItem from="1622208334207" duration="8090000" />
       <workItem from="1622258923126" duration="46000" />
       <workItem from="1622258998027" duration="18000" />
-      <workItem from="1622298624807" duration="350000" />
-    </task>
-    <task id="LOCAL-00006" summary="5.1 update">
-      <created>1619874855999</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619874855999</updated>
+      <workItem from="1622298624807" duration="451000" />
+      <workItem from="1622374265938" duration="4170000" />
     </task>
     <task id="LOCAL-00007" summary="5.3 update">
       <created>1620033261538</created>
@@ -646,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622217484252</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="5.29 update GoBinaryTree">
+      <created>1622299057165</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622299057165</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -689,7 +693,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.10 update" />
     <MESSAGE value="5.10 update,逆波兰表达式转换" />
     <MESSAGE value="5.11 update递归" />
     <MESSAGE value="5.12 update递归 解决迷宫问题" />
@@ -714,7 +717,8 @@
     <MESSAGE value="5.26 update BinaryTree_search deleteNode" />
     <MESSAGE value="5.27 update ArrBinaryTree" />
     <MESSAGE value="5.28 update ClueingBinaryTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.28 update ClueingBinaryTree" />
+    <MESSAGE value="5.29 update GoBinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.29 update GoBinaryTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,8 +738,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/clueingbinarytree/ClueingBinaryTree.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="9" />
+          <line>51</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

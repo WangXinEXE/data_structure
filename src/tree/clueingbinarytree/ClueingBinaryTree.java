@@ -1,5 +1,7 @@
 package tree.clueingbinarytree;
 
+import javax.crypto.spec.PSource;
+
 public class ClueingBinaryTree {
     public static void main(String[] args) {
         BinaryT binaryT = new BinaryT();
@@ -8,7 +10,7 @@ public class ClueingBinaryTree {
         ClueingNode heroNode2 = new ClueingNode(6, "兰博");
         ClueingNode heroNode3 = new ClueingNode(8, "大司马");
         ClueingNode heroNode4 = new ClueingNode(10, "韩金龙");
-        ClueingNode heroNode5 = new ClueingNode(14, "韩金龙");
+        ClueingNode heroNode5 = new ClueingNode(14, "芜湖大司马");
         binaryT.setRoot(root);
         root.setLeft(heroNode1);
         root.setRight(heroNode2);
@@ -23,6 +25,10 @@ public class ClueingBinaryTree {
         ClueingNode right = heroNode4.getRight();
         System.out.println(left);
         System.out.println(right);
+
+        System.out.println("线索化遍历-----------");
+        t.clueingBinaryTList(root);
+
 
 
     }
@@ -40,6 +46,29 @@ class BinaryT {
     public void clueingBinaryT() {
         this.clueingBinaryT(root);
     }
+
+    //中序遍历线索化二叉树
+    public void clueingBinaryTList(ClueingNode root) {
+        ClueingNode node = root;
+        while (node != null) {
+            //因为root == 0,代表根节点指向左子树,先找到8节点,8节点lefttype == 1
+            while (node.getLeftType() == 0) {
+                node = node.getLeft();
+            }
+            //如果等于1打印当期前节点
+            System.out.println(node);
+            //看它的右指针是不是后继节点,如果是就一直打印,后继节点的righttype == 1
+            while (node.getRightType() == 1) {
+                node = node.getRight();  //获取当前节点的后继节点
+                System.out.println(node);
+            }
+            //如果righttype != 1了,就替换这个节点
+            node = node.getRight();
+
+        }
+    }
+
+
     //中序线索化二叉树
     /**
      * 传进来的是节点
