@@ -1,15 +1,32 @@
 package tree;
 
-import com.sun.org.apache.xerces.internal.xs.ItemPSVI;
+
+import java.util.Arrays;
 
 public class HeapSort {
     public static void main(String[] args) {
         int[] arr = {4, 3, 9, 6, 7, 7, 12, 1};
-
+        heapSort(arr);
     }
 
     public static void heapSort(int[] arr) {
         System.out.println("开始堆排序");
+        int temp = 0;
+
+        for(int i = arr.length / 2 - 1; i >= 0 ;i--) {
+            adjust(arr,i, arr.length);
+        }
+
+        for(int j = arr.length - 1;j > 0 ;j--) {
+            temp = arr[j];
+            arr[j] = arr[0];
+            arr[0] = temp;
+            adjust(arr,0,j);
+        }
+
+        System.out.println(Arrays.toString(arr));
+
+
     }
 
     /**
