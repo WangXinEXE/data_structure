@@ -49,7 +49,5 @@ public class HeapSort {
             }
         }
         arr[i] = temp;
-
     }
-
 }
