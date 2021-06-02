@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/HuffmanTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/HuffmanTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.HuffmanTree">
     <configuration name="ArrBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTree" />
       <module name="data_structure" />
@@ -181,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.RadixSort" />
+    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.HuffmanTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,31 +193,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RadixSort" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.ArrBinaryTree" />
       <item itemvalue="Application.ClueingBinaryTree" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.HuffmanTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.ClueingBinaryTree" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.ArrBinaryTree" />
-        <item itemvalue="Application.RadixSort" />
       </list>
     </recent_temporary>
   </component>
@@ -308,14 +309,8 @@
       <workItem from="1622466585381" duration="3260000" />
       <workItem from="1622473414222" duration="307000" />
       <workItem from="1622473743150" duration="25000" />
-      <workItem from="1622552157412" duration="1279000" />
-    </task>
-    <task id="LOCAL-00011" summary="5.7 update">
-      <created>1620365437206</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1620365437207</updated>
+      <workItem from="1622552157412" duration="1899000" />
+      <workItem from="1622641772548" duration="1895000" />
     </task>
     <task id="LOCAL-00012" summary="5.7 update">
       <created>1620399921391</created>
@@ -653,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622473622741</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="6.1 update HuffmanTree">
+      <created>1622556103964</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1622556103965</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -696,7 +698,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.12 update递归 解决迷宫问题" />
     <MESSAGE value="5.12 update递归 八皇后问题" />
     <MESSAGE value="5.12 update排序算法" />
     <MESSAGE value="5.15 update 选择排序" />
@@ -721,7 +722,8 @@
     <MESSAGE value="5.29 update GoBinaryTree" />
     <MESSAGE value="5.30 update clueingBinaryTreeList" />
     <MESSAGE value="5.31 update HeapSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.31 update HeapSort" />
+    <MESSAGE value="6.1 update HuffmanTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.1 update HuffmanTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
