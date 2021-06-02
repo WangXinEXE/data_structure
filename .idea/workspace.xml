@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/HuffmanTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/tree/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/HuffmanTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,14 +312,7 @@
       <workItem from="1622473414222" duration="307000" />
       <workItem from="1622473743150" duration="25000" />
       <workItem from="1622552157412" duration="1899000" />
-      <workItem from="1622641772548" duration="1895000" />
-    </task>
-    <task id="LOCAL-00012" summary="5.7 update">
-      <created>1620399921391</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1620399921391</updated>
+      <workItem from="1622641772548" duration="5712000" />
     </task>
     <task id="LOCAL-00013" summary="5.7 update">
       <created>1620402923204</created>
@@ -655,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622556103965</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="6.2 update HuffmanTree">
+      <created>1622643942051</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1622643942051</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -698,7 +700,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.12 update递归 八皇后问题" />
     <MESSAGE value="5.12 update排序算法" />
     <MESSAGE value="5.15 update 选择排序" />
     <MESSAGE value="5.15 update 插入排序" />
@@ -723,7 +724,8 @@
     <MESSAGE value="5.30 update clueingBinaryTreeList" />
     <MESSAGE value="5.31 update HeapSort" />
     <MESSAGE value="6.1 update HuffmanTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.1 update HuffmanTree" />
+    <MESSAGE value="6.2 update HuffmanTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.2 update HuffmanTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -735,6 +737,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tree/HuffmanTree.java</url>
+          <line>6</line>
+          <properties class="tree.HuffmanTree" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sort/RadixSort.java</url>
