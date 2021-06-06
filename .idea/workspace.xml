@@ -311,13 +311,8 @@
       <workItem from="1622726397259" duration="2856000" />
       <workItem from="1622813102850" duration="461000" />
       <workItem from="1622813597894" duration="415000" />
-    </task>
-    <task id="LOCAL-00015" summary="5.8 update">
-      <created>1620487884965</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1620487884965</updated>
+      <workItem from="1622902854266" duration="892000" />
+      <workItem from="1622937449277" duration="13000" />
     </task>
     <task id="LOCAL-00016" summary="5.9 update">
       <created>1620538610745</created>
@@ -655,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622813371928</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="6.5 update HuffmanTree">
+      <created>1622903149834</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1622903149835</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -698,7 +700,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.15 update 插入排序" />
     <MESSAGE value="5.15 update ShellSort" />
     <MESSAGE value="5.16 update QuickSort" />
     <MESSAGE value="5.17 update MergeSort" />
@@ -723,7 +724,8 @@
     <MESSAGE value="6.2 update HuffmanTree" />
     <MESSAGE value="6.3 update HuffmanTree" />
     <MESSAGE value="6.4 update HuffmanTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.4 update HuffmanTree" />
+    <MESSAGE value="6.5 update HuffmanTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.5 update HuffmanTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
