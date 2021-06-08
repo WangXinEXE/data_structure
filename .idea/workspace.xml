@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/test.java" afterDir="false" />
-    </list>
+    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,15 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,21 +312,7 @@
       <workItem from="1622902854266" duration="892000" />
       <workItem from="1622937449277" duration="13000" />
       <workItem from="1622981575640" duration="1295000" />
-      <workItem from="1623071712010" duration="625000" />
-    </task>
-    <task id="LOCAL-00017" summary="5.9 update">
-      <created>1620572506221</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1620572506221</updated>
-    </task>
-    <task id="LOCAL-00018" summary="5.9 update">
-      <created>1620575079464</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1620575079464</updated>
+      <workItem from="1623071712010" duration="682000" />
     </task>
     <task id="LOCAL-00019" summary="5.10 update">
       <created>1620615863407</created>
@@ -662,7 +643,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622981634706</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="6.7 update HuffmanTree">
+      <created>1623076618850</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1623076618850</updated>
+    </task>
+    <task id="LOCAL-00067" summary="6.7 update HuffmanTree">
+      <created>1623076646439</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1623076646439</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -705,7 +700,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.16 update QuickSort" />
     <MESSAGE value="5.17 update MergeSort" />
     <MESSAGE value="5.17 update RadixSort" />
     <MESSAGE value="5.18 update RadixSort" />
@@ -730,7 +724,8 @@
     <MESSAGE value="6.4 update HuffmanTree" />
     <MESSAGE value="6.5 update HuffmanTree" />
     <MESSAGE value="6.6 update HuffmanTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.6 update HuffmanTree" />
+    <MESSAGE value="6.7 update HuffmanTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.7 update HuffmanTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
