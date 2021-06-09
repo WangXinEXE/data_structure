@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="" />
+    <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,13 +193,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,13 +318,8 @@
       <workItem from="1622937449277" duration="13000" />
       <workItem from="1622981575640" duration="1295000" />
       <workItem from="1623071712010" duration="682000" />
-    </task>
-    <task id="LOCAL-00019" summary="5.10 update">
-      <created>1620615863407</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1620615863407</updated>
+      <workItem from="1623163467293" duration="422000" />
+      <workItem from="1623247057479" duration="387000" />
     </task>
     <task id="LOCAL-00020" summary="5.10 update,逆波兰表达式转换">
       <created>1620656358803</created>
@@ -657,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623076646439</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="6.8 update HuffmanTree">
+      <created>1623163498664</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1623163498665</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -700,7 +707,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.17 update MergeSort" />
     <MESSAGE value="5.17 update RadixSort" />
     <MESSAGE value="5.18 update RadixSort" />
     <MESSAGE value="5.19 update SeqSearch" />
@@ -725,7 +731,8 @@
     <MESSAGE value="6.5 update HuffmanTree" />
     <MESSAGE value="6.6 update HuffmanTree" />
     <MESSAGE value="6.7 update HuffmanTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.7 update HuffmanTree" />
+    <MESSAGE value="6.8 update HuffmanTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.8 update HuffmanTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
