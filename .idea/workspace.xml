@@ -193,15 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,14 +317,8 @@
       <workItem from="1622981575640" duration="1295000" />
       <workItem from="1623071712010" duration="682000" />
       <workItem from="1623163467293" duration="422000" />
-      <workItem from="1623247057479" duration="387000" />
-    </task>
-    <task id="LOCAL-00020" summary="5.10 update,逆波兰表达式转换">
-      <created>1620656358803</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1620656358803</updated>
+      <workItem from="1623247057479" duration="421000" />
+      <workItem from="1623333949542" duration="8000" />
     </task>
     <task id="LOCAL-00021" summary="5.11 update递归">
       <created>1620743300456</created>
@@ -664,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623163498665</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="6.9 update">
+      <created>1623247463903</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1623247463904</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -707,7 +706,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.17 update RadixSort" />
     <MESSAGE value="5.18 update RadixSort" />
     <MESSAGE value="5.19 update SeqSearch" />
     <MESSAGE value="5.19 update DichotomySearch" />
@@ -732,7 +730,8 @@
     <MESSAGE value="6.6 update HuffmanTree" />
     <MESSAGE value="6.7 update HuffmanTree" />
     <MESSAGE value="6.8 update HuffmanTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.8 update HuffmanTree" />
+    <MESSAGE value="6.9 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.9 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
