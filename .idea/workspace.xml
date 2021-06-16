@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +126,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.HuffmanTree">
-    <configuration name="ArrBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTree" />
+  <component name="RunManager" selected="Application.BinarySortTree">
+    <configuration name="BinarySortTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysorttree.BinarySortTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.clueingbinarytree.*" />
+          <option name="PATTERN" value="binarysorttree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,18 +205,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinaryTree" />
-      <item itemvalue="Application.ArrBinaryTree" />
       <item itemvalue="Application.ClueingBinaryTree" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="Application.BinarySortTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySortTree" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.ClueingBinaryTree" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.ArrBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -322,14 +321,7 @@
       <workItem from="1623422650697" duration="367000" />
       <workItem from="1623512301895" duration="81000" />
       <workItem from="1623596004955" duration="173000" />
-      <workItem from="1623852120329" duration="1977000" />
-    </task>
-    <task id="LOCAL-00028" summary="5.12 update排序算法">
-      <created>1621007215468</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1621007215468</updated>
+      <workItem from="1623852120329" duration="2289000" />
     </task>
     <task id="LOCAL-00029" summary="5.15 update 选择排序">
       <created>1621057241991</created>
@@ -667,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623853965011</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="6.16 BinarySortTree update">
+      <created>1623854654643</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1623854654643</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
