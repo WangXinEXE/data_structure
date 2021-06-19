@@ -10,7 +10,15 @@ public class BinarySortTree {
         binarySortTrees.infixOrder();
         //binarySortTrees.deleteNode(2);
         System.out.println("---------");
-        binarySortTrees.deleteNode(1);
+        binarySortTrees.deleteNode(2);
+        binarySortTrees.deleteNode(5);
+        binarySortTrees.deleteNode(9);
+        binarySortTrees.deleteNode(12);
+        binarySortTrees.deleteNode(7);
+        binarySortTrees.deleteNode(3);
+        //binarySortTrees.deleteNode(10);
+        //binarySortTrees.deleteNode(1);
+
         binarySortTrees.infixOrder();
     }
 
@@ -43,7 +51,8 @@ class BinarySortTrees {
         while (target.left != null) {
             target = target.left;
         }
-
+        deleteNode(target.value);//删除最下节点
+        return target.value;
     }
 
     public void deleteNode(int value) {
@@ -68,20 +77,29 @@ class BinarySortTrees {
                     parent.right = null;
                 }
             } else if (targetNode.left != null && targetNode.right != null) {  //删除两颗子树的节点
-
-
+                int min = deleRightTreeMin(targetNode.right);
+                targetNode.value = min;
+                //换个思路左子树找最大的也行
             } else {  //删除有一颗子树的节点
-                if(targetNode.left != null) {
-                    if(parent.left.value == value) {
-                        parent.left = targetNode.left;
+                if (targetNode.left != null) {
+                    if (parent != null) {   //处理了根节点没有parent的情况
+                        if (parent.left.value == value) {
+                            parent.left = targetNode.left;
+                        } else {
+                            parent.right = targetNode.left;
+                        }
                     } else {
-                        parent.right = targetNode.left;
+                        root = targetNode.left;
                     }
                 } else {
-                    if(parent.left.value == value) {
-                        parent.left = targetNode.right;
+                    if (parent != null) {
+                        if (parent.left.value == value) {
+                            parent.left = targetNode.right;
+                        } else {
+                            parent.right = targetNode.right;
+                        }
                     } else {
-                        parent.right = targetNode.right;
+                        root = targetNode.right;
                     }
                 }
 

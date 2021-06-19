@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -323,14 +327,7 @@
       <workItem from="1623596004955" duration="173000" />
       <workItem from="1623852120329" duration="2289000" />
       <workItem from="1623901812517" duration="674000" />
-      <workItem from="1624066964476" duration="8757000" />
-    </task>
-    <task id="LOCAL-00033" summary="5.16 update QuickSort">
-      <created>1621180668773</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1621180668773</updated>
+      <workItem from="1624066964476" duration="10820000" />
     </task>
     <task id="LOCAL-00034" summary="5.17 update MergeSort">
       <created>1621265479130</created>
@@ -668,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624085848707</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="6.19 BinarySortTree update delete">
+      <created>1624086262474</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1624086262474</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
