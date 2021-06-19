@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,14 +324,7 @@
       <workItem from="1623596004955" duration="173000" />
       <workItem from="1623852120329" duration="2289000" />
       <workItem from="1623901812517" duration="674000" />
-      <workItem from="1624066964476" duration="2955000" />
-    </task>
-    <task id="LOCAL-00029" summary="5.15 update 选择排序">
-      <created>1621057241991</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1621057241991</updated>
+      <workItem from="1624066964476" duration="3590000" />
     </task>
     <task id="LOCAL-00030" summary="5.15 update 插入排序">
       <created>1621061177340</created>
@@ -670,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623854654643</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="6.19 BinarySortTree update delete">
+      <created>1624077545533</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1624077545534</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -713,7 +712,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.22 update Hash" />
     <MESSAGE value="5.23 update HashTable" />
     <MESSAGE value="5.24 update Tree" />
     <MESSAGE value="5.24 update BinaryTree" />
@@ -738,7 +736,8 @@
     <MESSAGE value="6.12 update" />
     <MESSAGE value="6.13 update" />
     <MESSAGE value="6.16 BinarySortTree update" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.16 BinarySortTree update" />
+    <MESSAGE value="6.19 BinarySortTree update delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.19 BinarySortTree update delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
