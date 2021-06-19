@@ -8,8 +8,9 @@ public class BinarySortTree {
             binarySortTrees.add(new Node(i));
         }
         binarySortTrees.infixOrder();
-        binarySortTrees.deleteNode(2);
-        binarySortTrees.deleteNode(5);
+        //binarySortTrees.deleteNode(2);
+        System.out.println("---------");
+        binarySortTrees.deleteNode(1);
         binarySortTrees.infixOrder();
     }
 
@@ -55,6 +56,24 @@ class BinarySortTrees {
                 } else if (parent.right != null && parent.right.value == value) {
                     parent.right = null;
                 }
+            } else if (targetNode.left != null && targetNode.right != null) {  //删除两颗子树的节点
+
+
+            } else {  //删除有一颗子树的节点
+                if(targetNode.left != null) {
+                    if(parent.left.value == value) {
+                        parent.left = targetNode.left;
+                    } else {
+                        parent.right = targetNode.left;
+                    }
+                } else {
+                    if(parent.left.value == value) {
+                        parent.left = targetNode.right;
+                    } else {
+                        parent.right = targetNode.right;
+                    }
+                }
+
             }
 
         }
