@@ -2,11 +2,14 @@ package binarysorttree;
 
 public class BinarySortTree {
     public static void main(String[] args) {
-        int[] arr = {7, 3, 10, 12, 5, 1, 9};
+        int[] arr = {7, 3, 10, 12, 5, 1, 9, 2};
         BinarySortTrees binarySortTrees = new BinarySortTrees();
         for (int i : arr) {
             binarySortTrees.add(new Node(i));
         }
+        binarySortTrees.infixOrder();
+        binarySortTrees.deleteNode(2);
+        binarySortTrees.deleteNode(5);
         binarySortTrees.infixOrder();
     }
 
@@ -14,6 +17,49 @@ public class BinarySortTree {
 
 class BinarySortTrees {
     private Node root; // 根节点
+
+    public Node search(int value) {
+        if (root == null) {
+            return null;
+        } else {
+            return root.search(value);
+        }
+    }
+
+    public Node searchParent(int value) {
+        if (root == null) {
+            return null;
+        } else {
+            return root.searchParent(value);
+        }
+    }
+
+    public void deleteNode(int value) {
+        if (root == null) {
+            return;
+        } else {
+            //先找到需要删除的节点
+            Node targetNode = search(value);
+            if (targetNode == null) {
+                return;
+            }
+            if (root.left == null && root.right == null) { // 如果这棵树只有一个节点
+                root = null;
+                return;
+            }
+            Node parent = searchParent(value);
+            //删除叶子节点
+            if (targetNode.left == null && targetNode.right == null) {
+                if (parent.left != null && parent.left.value == value) {
+                    parent.left = null;
+                } else if (parent.right != null && parent.right.value == value) {
+                    parent.right = null;
+                }
+            }
+
+        }
+
+    }
 
     public void add(Node node) {
         if (root == null) {
@@ -70,9 +116,10 @@ class Node {
                 return this.left.searchParent(value);
             } else if ((value >= this.value) && (this.right != null)) {
                 return this.right.searchParent(value);
+            } else {
+                return null;
             }
         }
-        return null;
     }
 
 
