@@ -17,6 +17,7 @@ public class BinarySortTree {
 }
 
 class BinarySortTrees {
+
     private Node root; // 根节点
 
     public Node search(int value) {
@@ -33,6 +34,16 @@ class BinarySortTrees {
         } else {
             return root.searchParent(value);
         }
+    }
+
+    //返回以node为根节点的二叉树的最小值并删除此节点
+    public int deleRightTreeMin(Node node) {
+        Node target = node;
+        //循环查找左节点最小值
+        while (target.left != null) {
+            target = target.left;
+        }
+
     }
 
     public void deleteNode(int value) {
