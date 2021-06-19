@@ -37,10 +37,27 @@ class Node {
     int value;
     Node left;
     Node right;
-
     public Node(int value) {
         this.value = value;
     }
+    //根据value找到要删除的节点
+    public Node search(int value) {
+        if(value == this.value) {
+            return this;
+        }
+        if(value < this.value) {  //说明需要去左子树寻找
+            if(this.left == null) {
+                return null;
+            }
+            return this.left.search(value);
+        } else {
+            if(this.right == null) {
+                return null;
+            }
+            return this.right.search(value);
+        }
+    }
+
 
     @Override
     public String toString() {
@@ -48,7 +65,6 @@ class Node {
                 "value=" + value +
                 '}';
     }
-
     //递归添加节点的方法,满足二叉排序树的要求
     public void add(Node node) {
         if (node == null) {
