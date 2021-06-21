@@ -127,6 +127,22 @@ class Node {
     public Node(int value) {
         this.value = value;
     }
+    //左旋,绕麻了
+    private void leftRotate() {
+        //创建新的节点,以当前根节点为基准
+        Node newNode = new Node(value);
+        //把新的节点的左子树作为当前节点的左子树
+        newNode.left = left;
+        //把新的节点的右子树设置成当前节点的右子树的左子树
+        newNode.right = right.left;
+        //把当前节点的值替换成右子节点的值
+        value = right.value;
+        //把当前节点的右子树设置成当前节点的右子树的右子树
+        right = right.right;
+        //把当前节点的左子树设置成新的节点
+        left = newNode;
+
+    }
 
     //返回以当前节点为根节点的树的高度
     public int height() {
@@ -211,6 +227,12 @@ class Node {
                 this.right.add(node);
             }
         }
+        //当添加完一个节点后,当(右子树的高度-左子树的高度)>1,开始左旋
+        if(rightHeight() - leftHeight() > 1) {
+            leftRotate();
+        }
+
+
     }
 
     //中序遍历
