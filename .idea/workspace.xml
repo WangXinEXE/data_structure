@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/BinarySortTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/binarysorttree/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,13 +127,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wx_datastructure" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.BinarySortTree">
-    <configuration name="BinarySortTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarysorttree.BinarySortTree" />
+  <component name="RunManager" selected="Application.AVLTree">
+    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avl.AVLTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarysorttree.*" />
+          <option name="PATTERN" value="avl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
+    <configuration name="BinarySortTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysorttree.BinarySortTree" />
       <module name="data_structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.clueingbinarytree.*" />
+          <option name="PATTERN" value="binarysorttree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,31 +193,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.ClueingBinaryTree" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.BinarySortTree" />
+      <item itemvalue="Application.AVLTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTree" />
         <item itemvalue="Application.BinarySortTree" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.ClueingBinaryTree" />
-        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -327,14 +326,8 @@
       <workItem from="1623596004955" duration="173000" />
       <workItem from="1623852120329" duration="2289000" />
       <workItem from="1623901812517" duration="674000" />
-      <workItem from="1624066964476" duration="10820000" />
-    </task>
-    <task id="LOCAL-00034" summary="5.17 update MergeSort">
-      <created>1621265479130</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1621265479130</updated>
+      <workItem from="1624066964476" duration="11008000" />
+      <workItem from="1624281573568" duration="3308000" />
     </task>
     <task id="LOCAL-00035" summary="5.17 update MergeSort">
       <created>1621266425861</created>
@@ -672,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624086262474</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="6.19 BinarySortTree update delete">
+      <created>1624088144355</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1624088144355</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

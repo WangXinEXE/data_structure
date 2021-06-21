@@ -1,31 +1,19 @@
-package binarysorttree;
+package avl;
 
-public class BinarySortTree {
+public class AVLTree {
     public static void main(String[] args) {
-        int[] arr = {7, 3, 10, 12, 5, 1, 9, 2};
-        BinarySortTrees binarySortTrees = new BinarySortTrees();
+        int[] arr = {4, 3, 6, 5, 7, 8};
+        AVLTrees avlTrees = new AVLTrees();
         for (int i : arr) {
-            binarySortTrees.add(new Node(i));
+            avlTrees.add(new Node(i));
         }
-        binarySortTrees.infixOrder();
-        //binarySortTrees.deleteNode(2);
-        System.out.println("---------");
-        binarySortTrees.deleteNode(2);
-        binarySortTrees.deleteNode(5);
-        binarySortTrees.deleteNode(9);
-        binarySortTrees.deleteNode(12);
-        binarySortTrees.deleteNode(7);
-        binarySortTrees.deleteNode(3);
-        //binarySortTrees.deleteNode(10);
-        //binarySortTrees.deleteNode(1);
-
-        binarySortTrees.infixOrder();
+        avlTrees.infixOrder();
     }
-
 }
 
-class BinarySortTrees {
+class AVLTrees {
     private Node root; // 根节点
+
     public Node search(int value) {
         if (root == null) {
             return null;
@@ -33,6 +21,7 @@ class BinarySortTrees {
             return root.search(value);
         }
     }
+
     public Node searchParent(int value) {
         if (root == null) {
             return null;
@@ -40,6 +29,7 @@ class BinarySortTrees {
             return root.searchParent(value);
         }
     }
+
     //返回以node为根节点的二叉树的最小值并删除此节点
     public int deleRightTreeMin(Node node) {
         Node target = node;
@@ -128,6 +118,28 @@ class Node {
     public Node(int value) {
         this.value = value;
     }
+
+    //返回以当前节点为根节点的树的高度
+    public int height() {
+        return Math.max(left == null ? 0 : left.height(), right == null ? 0 : right.height()) + 1; //本身的节点要算一层,所以要+1
+    }
+
+    public int leftHeight() {
+        if (left == null) {
+            return 0;
+        } else {
+            return left.height();
+        }
+    }
+
+    public int rightHeight() {
+        if (right == null) {
+            return 0;
+        } else {
+            return right.height();
+        }
+    }
+
 
     //根据value找到要删除的节点
     public Node search(int value) {
