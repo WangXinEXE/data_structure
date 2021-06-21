@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarysorttree/BinarySortTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avl/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,14 +330,7 @@
       <workItem from="1623852120329" duration="2289000" />
       <workItem from="1623901812517" duration="674000" />
       <workItem from="1624066964476" duration="11008000" />
-      <workItem from="1624281573568" duration="3308000" />
-    </task>
-    <task id="LOCAL-00035" summary="5.17 update MergeSort">
-      <created>1621266425861</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1621266425861</updated>
+      <workItem from="1624281573568" duration="4010000" />
     </task>
     <task id="LOCAL-00036" summary="5.17 update RadixSort">
       <created>1621316025284</created>
@@ -672,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624088144355</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="6.21 AVLTree.java">
+      <created>1624285987608</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1624285987609</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -715,7 +718,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.23 update HashTable" />
     <MESSAGE value="5.24 update Tree" />
     <MESSAGE value="5.24 update BinaryTree" />
     <MESSAGE value="5.25 update BinaryTree_search" />
@@ -740,7 +742,8 @@
     <MESSAGE value="6.13 update" />
     <MESSAGE value="6.16 BinarySortTree update" />
     <MESSAGE value="6.19 BinarySortTree update delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.19 BinarySortTree update delete" />
+    <MESSAGE value="6.21 AVLTree.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.21 AVLTree.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,6 +760,11 @@
           <url>file://$PROJECT_DIR$/src/sort/RadixSort.java</url>
           <line>39</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/avl/AVLTree.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

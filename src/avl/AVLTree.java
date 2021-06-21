@@ -8,11 +8,20 @@ public class AVLTree {
             avlTrees.add(new Node(i));
         }
         avlTrees.infixOrder();
+        System.out.println("没有平衡处理前树的高度");
+        System.out.println(avlTrees.getRoot().height());
+        System.out.println(avlTrees.getRoot().leftHeight());
+        System.out.println(avlTrees.getRoot().rightHeight());
+
     }
 }
 
 class AVLTrees {
     private Node root; // 根节点
+
+    public Node getRoot() {
+        return root;
+    }
 
     public Node search(int value) {
         if (root == null) {
