@@ -142,8 +142,13 @@ class Node {
         left = newNode;
     }
     //右旋
-    public void rightRotate() {
-
+    private void rightRotate() {
+        Node newNode = new Node(value);
+        newNode.right = right;
+        newNode.left = left.right;
+        value = left.value;
+        left = left.left;
+        right = newNode;
     }
 
     //返回以当前节点为根节点的树的高度
