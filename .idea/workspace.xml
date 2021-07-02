@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avl/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,21 +330,7 @@
       <workItem from="1624328256347" duration="46000" />
       <workItem from="1624343489436" duration="33000" />
       <workItem from="1624348096253" duration="44000" />
-      <workItem from="1625215966322" duration="709000" />
-    </task>
-    <task id="LOCAL-00039" summary="5.19 update DichotomySearch">
-      <created>1621438401740</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1621438401740</updated>
-    </task>
-    <task id="LOCAL-00040" summary="5.19 update DichotomySearch">
-      <created>1621440509399</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1621440509399</updated>
+      <workItem from="1625215966322" duration="1035000" />
     </task>
     <task id="LOCAL-00041" summary="5.20 update InsertValueSearch">
       <created>1621524102853</created>
@@ -674,7 +661,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624287872490</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="7.2 AVLTree.java">
+      <created>1625216695739</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1625216695740</updated>
+    </task>
+    <task id="LOCAL-00089" summary="7.2 AVLTree.java">
+      <created>1625216918501</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1625216918501</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -717,7 +718,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.24 update Tree" />
     <MESSAGE value="5.24 update BinaryTree" />
     <MESSAGE value="5.25 update BinaryTree_search" />
     <MESSAGE value="5.26 update BinaryTree_search deleteNode" />
@@ -742,7 +742,8 @@
     <MESSAGE value="6.16 BinarySortTree update" />
     <MESSAGE value="6.19 BinarySortTree update delete" />
     <MESSAGE value="6.21 AVLTree.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.21 AVLTree.java" />
+    <MESSAGE value="7.2 AVLTree.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.2 AVLTree.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

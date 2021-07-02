@@ -3,8 +3,9 @@ package avl;
 public class AVLTree {
     public static void main(String[] args) {
         int[] arr = {4, 3, 6, 5, 7, 8};
+        int[] arr1 = {10, 12, 8, 9, 7, 6};
         AVLTrees avlTrees = new AVLTrees();
-        for (int i : arr) {
+        for (int i : arr1) {
             avlTrees.add(new Node(i));
         }
         avlTrees.infixOrder();
@@ -12,6 +13,7 @@ public class AVLTree {
         System.out.println(avlTrees.getRoot().height());
         System.out.println(avlTrees.getRoot().leftHeight());
         System.out.println(avlTrees.getRoot().rightHeight());
+
     }
 }
 
@@ -235,6 +237,10 @@ class Node {
         //当添加完一个节点后,当(右子树的高度-左子树的高度)>1,开始左旋
         if(rightHeight() - leftHeight() > 1) {
             leftRotate();
+        }
+
+        if(leftHeight() - rightHeight() > 1) {
+            rightRotate();
         }
     }
 
