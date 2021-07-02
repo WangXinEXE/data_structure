@@ -12,7 +12,6 @@ public class AVLTree {
         System.out.println(avlTrees.getRoot().height());
         System.out.println(avlTrees.getRoot().leftHeight());
         System.out.println(avlTrees.getRoot().rightHeight());
-
     }
 }
 
@@ -141,6 +140,9 @@ class Node {
         right = right.right;
         //把当前节点的左子树设置成新的节点
         left = newNode;
+    }
+    //右旋
+    public void rightRotate() {
 
     }
 
@@ -164,7 +166,6 @@ class Node {
             return right.height();
         }
     }
-
 
     //根据value找到要删除的节点
     public Node search(int value) {
@@ -200,7 +201,6 @@ class Node {
         }
     }
 
-
     @Override
     public String toString() {
         return "Node{" +
@@ -231,8 +231,6 @@ class Node {
         if(rightHeight() - leftHeight() > 1) {
             leftRotate();
         }
-
-
     }
 
     //中序遍历

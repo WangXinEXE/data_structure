@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avl/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,15 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,14 +325,11 @@
       <workItem from="1623852120329" duration="2289000" />
       <workItem from="1623901812517" duration="674000" />
       <workItem from="1624066964476" duration="11008000" />
-      <workItem from="1624281573568" duration="5290000" />
-    </task>
-    <task id="LOCAL-00038" summary="5.19 update SeqSearch">
-      <created>1621436482056</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1621436482056</updated>
+      <workItem from="1624281573568" duration="5488000" />
+      <workItem from="1624328256347" duration="46000" />
+      <workItem from="1624343489436" duration="33000" />
+      <workItem from="1624348096253" duration="44000" />
+      <workItem from="1625215966322" duration="709000" />
     </task>
     <task id="LOCAL-00039" summary="5.19 update DichotomySearch">
       <created>1621438401740</created>
@@ -673,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624287663153</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="6.21 AVLTree.java">
+      <created>1624287872490</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1624287872490</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
