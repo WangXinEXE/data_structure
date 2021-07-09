@@ -213,6 +213,7 @@ class Node {
         return "Node{" +
                 "value=" + value +
                 '}';
+
     }
 
     //递归添加节点的方法,满足二叉排序树的要求

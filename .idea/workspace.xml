@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/avl/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avl/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -330,14 +329,8 @@
       <workItem from="1624328256347" duration="46000" />
       <workItem from="1624343489436" duration="33000" />
       <workItem from="1624348096253" duration="44000" />
-      <workItem from="1625215966322" duration="1035000" />
-    </task>
-    <task id="LOCAL-00041" summary="5.20 update InsertValueSearch">
-      <created>1621524102853</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1621524102853</updated>
+      <workItem from="1625215966322" duration="1909000" />
+      <workItem from="1625813523574" duration="659000" />
     </task>
     <task id="LOCAL-00042" summary="5.21 update FibonacciSearch">
       <created>1621610761332</created>
@@ -675,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625216918501</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="7.2 AVLTree.java">
+      <created>1625217185689</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1625217185689</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
