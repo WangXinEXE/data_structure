@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f9bd6-4370-418a-9232-0a624b241229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +192,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,27 +334,7 @@
       <workItem from="1625813523574" duration="659000" />
       <workItem from="1625824014100" duration="117000" />
       <workItem from="1626251040787" duration="497000" />
-    </task>
-    <task id="LOCAL-00047" summary="5.24 update BinaryTree">
-      <created>1621870513381</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1621870513381</updated>
-    </task>
-    <task id="LOCAL-00048" summary="5.25 update BinaryTree_search">
-      <created>1621918771005</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1621918771005</updated>
-    </task>
-    <task id="LOCAL-00049" summary="5.26 update BinaryTree_search deleteNode">
-      <created>1622004984463</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1622004984463</updated>
+      <workItem from="1626419897374" duration="160000" />
     </task>
     <task id="LOCAL-00050" summary="5.27 update ArrBinaryTree">
       <created>1622129226057</created>
@@ -676,7 +658,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626251078276</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="7.14 AVLTree.java">
+      <created>1626419922159</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1626419922160</updated>
+    </task>
+    <task id="LOCAL-00097" summary="7.16 update">
+      <created>1626419955438</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1626419955438</updated>
+    </task>
+    <task id="LOCAL-00098" summary="7.16 update">
+      <created>1626419973328</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1626419973328</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -719,7 +722,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.26 update BinaryTree_search deleteNode" />
     <MESSAGE value="5.27 update ArrBinaryTree" />
     <MESSAGE value="5.28 update ClueingBinaryTree" />
     <MESSAGE value="5.29 update GoBinaryTree" />
@@ -744,7 +746,8 @@
     <MESSAGE value="7.2 AVLTree.java" />
     <MESSAGE value="7.9 AVLTree.java" />
     <MESSAGE value="7.14 AVLTree.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.14 AVLTree.java" />
+    <MESSAGE value="7.16 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.16 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
