@@ -190,13 +190,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,34 +334,7 @@
       <workItem from="1626251040787" duration="497000" />
       <workItem from="1626419897374" duration="160000" />
       <workItem from="1626659175594" duration="652000" />
-    </task>
-    <task id="LOCAL-00051" summary="5.27 update ArrBinaryTree">
-      <created>1622129551944</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1622129551944</updated>
-    </task>
-    <task id="LOCAL-00052" summary="5.28 update ClueingBinaryTree">
-      <created>1622211942119</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1622211942119</updated>
-    </task>
-    <task id="LOCAL-00053" summary="5.28 update ClueingBinaryTree">
-      <created>1622212248860</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1622212248860</updated>
-    </task>
-    <task id="LOCAL-00054" summary="5.28 update ClueingBinaryTree">
-      <created>1622217484252</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1622217484252</updated>
+      <workItem from="1626744821288" duration="95000" />
     </task>
     <task id="LOCAL-00055" summary="5.29 update GoBinaryTree">
       <created>1622299057165</created>
@@ -676,7 +651,35 @@
       <option name="project" value="LOCAL" />
       <updated>1626659209473</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="7.20 update">
+      <created>1626744857550</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1626744857551</updated>
+    </task>
+    <task id="LOCAL-00101" summary="7.20 update">
+      <created>1626744874874</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1626744874874</updated>
+    </task>
+    <task id="LOCAL-00102" summary="7.20 update">
+      <created>1626744886334</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1626744886335</updated>
+    </task>
+    <task id="LOCAL-00103" summary="7.20 update">
+      <created>1626744897999</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1626744897999</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -719,7 +722,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5.28 update ClueingBinaryTree" />
     <MESSAGE value="5.29 update GoBinaryTree" />
     <MESSAGE value="5.30 update clueingBinaryTreeList" />
     <MESSAGE value="5.31 update HeapSort" />
@@ -744,7 +746,8 @@
     <MESSAGE value="7.14 AVLTree.java" />
     <MESSAGE value="7.16 update" />
     <MESSAGE value="7.19 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.19 update" />
+    <MESSAGE value="7.20 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.20 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
